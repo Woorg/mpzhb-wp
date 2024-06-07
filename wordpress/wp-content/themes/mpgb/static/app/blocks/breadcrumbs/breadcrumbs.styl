@@ -1,0 +1,79 @@
+.breadcrumbs
+	background #eeeeee
+	&__in
+		position relative
+		padding-top 13px
+		padding-bottom 15px
+		line-height 1
+		overflow hidden
+		&:before
+			position absolute
+			top 8px
+			bottom 8px
+			right 0
+			width 30px
+			height 30px
+			content ''
+			background linear-gradient(to right, rgba(#eee, .5) 0%, #eee 100%)
+	span
+		display inline-block
+		vertical-align middle
+		font-size 14px
+		color #292929
+		line-height 1.4
+		letter-spacing tracking(-25, 14)
+		text-overflow ellipsis
+		+r($t)
+			font-size 12px
+	span
+		color #292929
+		a
+			margin-right 5px
+			display inline-block
+			text-decoration underline
+			color #292929
+			&:hover
+				text-decoration none
+	span >
+		span
+			color #7f7f7f
+			&:nth-child(1)
+				a
+					margin-top 0
+					margin-right 2px
+					display inline-block
+					vertical-align middle
+					width 14px
+					height 14px
+					background url('../images/general/home.svg') 0 0 no-repeat
+					background-size cover
+					line-height 1
+					text-indent -9999px
+		span,
+		strong
+			color #7f7f7f
+			&.breadcrumb_last
+				color #7f7f7f
+				font-size 14px
+				line-height 1.4
+				text-decoration none
+				text-overflow ellipsis
+				+r($t)
+					font-size 12px
+.breadcrumb_last
+	white-space normal
+
+.breadcrumbs
+	span >
+		span
+			line-height 1
+			white-space pre
+			&:nth-child(2n)
+				a
+					width auto
+					height auto
+					background-image none
+					text-indent 0
+			&:nth-child(3)
+				a
+					white-space normal

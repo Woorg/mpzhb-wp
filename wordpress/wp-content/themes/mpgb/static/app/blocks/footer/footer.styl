@@ -1,0 +1,41 @@
+.footer
+	display block
+	&__body
+		padding-top 74px
+		padding-bottom 42px
+		background-color #292929
+		+r($l)
+			padding-top 46px
+			padding-bottom 39px
+		+r($m)
+			padding-top 40px
+			padding-bottom 40px
+	&__col
+		margin-bottom 50px
+		+r($t)
+			float none
+			display inline-block
+			vertical-align top
+			width 49%
+		+r($m)
+			width 100%
+		&:last-child
+			+r($m)
+				margin-bottom 0
+	&__in
+		clr()
+	&__bottom
+		padding-top 6px
+		padding-bottom 6px
+		background-color #4cbaba
+	&__copyright
+		font-size 14px
+		line-height 37px
+		+r($m)
+			line-height 23px
+		a
+			color #292929
+			text-decoration none
+			&:hover
+				color #292929
+				text-decoration none

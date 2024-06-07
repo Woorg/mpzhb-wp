@@ -1,0 +1,194 @@
+.advantages
+	padding-left 60px
+	+r($l)
+		margin-left -30px
+		margin-right -30px
+		padding-top 22px
+		padding-right 30px
+		padding-bottom 28px
+		padding-left 30px
+	+r($t)
+		padding-top 40px
+		padding-bottom 40px
+		background #4cbaba
+	&__title
+		margin-bottom 43px
+		@extends .title
+		+r($l)
+			margin-bottom 27px
+	&__item
+		position relative
+		margin-bottom 26px
+		padding-left 30px
+		&:after
+			position absolute
+			top 10px
+			left 0
+			content ''
+			width 13px
+			height 10px
+			background url('../images/general/list-icon.svg') 0 0 / cover no-repeat
+		&:last-child
+			margin-bottom 0
+.advantages_second,
+.advantages_third
+	margin-left 0
+	margin-right 0
+	padding-left 0
+	display block
+	background #eeeeee
+	overflow hidden
+	.advantages__in
+		padding-top 70px
+		padding-bottom 43px
+		+r($l)
+			padding-top 44px
+	.advantages__title
+		margin-bottom 43px
+		@extends .title
+		text-align center
+		font-family $mM
+		font-weight normal
+	.advantages__list
+		margin-bottom 0
+		clr()
+	.advantages__item-w
+		+r($l)
+			width 60%
+		+r($t)
+			width 70%
+		+r($m)
+			width auto
+	.advantages__item
+		padding-left 0
+		&:after
+			display none
+		+r($l)
+			display flex
+			flex-wrap wrap
+			justify-content center
+			align-items center
+		+r($m)
+			margin-bottom 20px
+	.advantages__item_first
+		.advantages__icon
+			top 10px
+			left 20px
+			retinaSprite($advantages_1_group)
+	.advantages__item_second
+		.advantages__icon
+			top 12px
+			left 23px
+			width 49px
+			height 68px
+	.advantages__item_third
+		.advantages__icon
+			top 12px
+			left 22px
+			retinaSprite($advantages_3_group)
+	.advantages__icon
+		position absolute
+		top 0
+		left 0
+		fill #4cbaba
+		+r($m)
+			position absolute
+	.advantages__link
+		position relative
+		padding-left 113px
+		display block
+		color #292929
+		text-decoration none
+		width 100%
+		+r($m)
+			padding-left 80px
+		&:hover
+			color #292929
+			text-decoration none
+			.services__item-title
+				text-decoration none
+				color #4CBABA
+	.advantages__item-title
+		margin-bottom 10px
+		font-size 18px
+		line-height 28px
+		text-decoration none
+		text-transform uppercase
+		letter-spacing tracking(-25, 18)
+		+r($l)
+			text-align left
+		+r($m)
+			text-align center
+	.advantages__item-text
+		letter-spacing tracking(-25, 16)
+		+r($l)
+			width 80%
+			text-align left
+		+r($m)
+			width auto
+			text-align center
+.advantages_third
+	margin-left 0
+	padding-left 0
+	padding-right 0
+	margin-right 0
+	overflow hidden
+	+r($l)
+		margin-left 0
+		margin-right 0
+		padding-top 22px
+		padding-right 30px
+		padding-bottom 28px
+		padding-left 30px
+		background
+	+r($m)
+		padding-left 0
+		padding-right 0
+	.advantages__item
+		padding-left 20px
+		padding-right 20px
+		text-align center
+		&:after
+			display none
+
+	.advantages__link
+		padding-left 0
+	.advantages__icon
+		position absolute
+		z-index 1
+		top 50%
+		left 50%
+		transform translate(-50%, -50%)
+	.advantages__icon-w
+		position relative
+		margin auto
+		margin-bottom 20px
+		width 98px
+		height 98px
+		background-color #ffffff
+		content ''
+		border-radius 50%
+		+r($l)
+			margin 0
+			margin-right 20px
+			margin-bottom 0
+		+r($m)
+			margin-right 0
+			margin-bottom 10px
+	.advantages__item_first
+		.advantages__icon
+			top 50%
+			left 50%
+			retinaSprite($advantages_4_group)
+	.advantages__item_second
+		.advantages__icon
+			top 50%
+			left 50%
+			width 37px
+			height 50px
+	.advantages__item_third
+		.advantages__icon
+			top 50%
+			left 50%
+			retinaSprite($advantages_5_group)
+

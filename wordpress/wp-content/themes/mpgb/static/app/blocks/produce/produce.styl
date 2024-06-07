@@ -1,0 +1,24 @@
+.produce
+	display block
+	+r($l)
+		margin-bottom 27px
+	+r($t)
+		margin-bottom 40px
+	&__title
+		margin-bottom 18px
+		@extends .subtitle
+	&__list
+		font-size 0
+	&__item
+		margin-right 45px
+		display inline-block
+		vertical-align top
+		&:last-child
+			margin-right 0
+	&__item-title
+		font-size 24px
+		font-family $mB
+		font-weight normal
+		color #4cbaba
+	&__item-text
+		font-size 16px

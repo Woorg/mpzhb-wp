@@ -1,0 +1,160 @@
+.table,
+.dataTables_wrapper,
+.tablepress
+	margin-bottom 40px
+	font-size 14px
+	letter-spacing tracking(-25, 14)
+	+r($t)
+		width 768px
+		display block
+		font-size 12px
+		overflow-x scroll
+	th,
+	td
+		&:last-child
+			text-align right
+	thead
+		width 100%
+		&:first-child
+			tr
+				&:first-child
+					th
+						border-top 1px solid #eeeeee
+						background #eeeeee
+						font-family $mM
+		tr
+			th
+				border-top 1px solid #eeeeee
+				border-bottom none
+				padding-top 14px
+				padding-right 9px
+				padding-bottom 14px
+				padding-left 9px
+				width 100%
+				vertical-align middle
+				+r($l)
+					padding-left 4px
+					padding-right 4px
+				&:first-child
+					padding-left 18px
+					+r($l)
+						padding-left 5px
+				&:last-child
+					padding-right 18px
+					+r($l)
+						padding-right 5px
+
+				&:nth-child(4),
+				&:nth-child(5)
+					white-space nowrap
+	tbody
+		width 100%
+		tr
+			&:nth-child(even)
+				background #fff
+			&:nth-child(odd)
+				background #eeeeee
+			&:last-child
+				td
+					border-bottom 1px solid #eeeeee
+			td
+				border-top 1px solid #eeeeee
+				padding-top 18px
+				padding-right 9px
+				padding-bottom 18px
+				padding-left 9px
+				vertical-align middle
+				&:first-child
+					padding-left 18px
+					+r($l)
+						padding-left 5px
+				&:last-child
+					padding-right 18px
+					+r($l)
+						padding-right 5px
+.table_second
+	margin-bottom 50px
+	thead
+		tr
+			th
+				padding-top 19px
+				padding-bottom 19px
+				&:nth-child(4),
+				&:nth-child(5)
+					white-space normal
+	tbody
+		tr
+			td
+				padding-top 11px
+				padding-bottom 11px
+			&:last-child
+				td
+					border-bottom none
+.table_third
+	thead
+		tr
+			th
+				padding-top 19px
+				padding-bottom 19px
+	tbody
+		tr
+			td
+				padding-top 11px
+				padding-bottom 11px
+	th,
+	td
+		&:last-child
+			text-align left
+body
+	table
+		margin-bottom 40px
+		// table-layout fixed
+	.dataTables_wrapper
+		margin-bottom 40px
+		.tablepress tfoot th,
+		.tablepress thead th
+			border-top 1px solid #eee
+			border-bottom none
+			padding-top 14px
+			padding-right 9px
+			padding-bottom 14px
+			padding-left 9px
+			background-color #FFF
+			font-family $mM
+			font-weight normal
+			&:hover
+				background-color #FFF
+		.tablepress
+			width 100%
+			.odd
+				td
+					background #EEE
+	.tablepress
+		margin-bottom 40px
+		width 100%
+		thead,
+		tr
+			width 100%
+
+		.odd
+			td
+				background #EEE
+		.dataTables_length,
+		.dataTables_filter,
+		.dataTables_info,
+		.dataTables_paginate.paging_simple
+			display none
+	.tablepress tfoot th,
+	.tablepress thead th
+		border-bottom none
+		font-family $mM
+		font-weight normal
+		background-color #fff
+.tablepress .sorting:after,
+.tablepress .sorting_asc:after,
+.tablepress .sorting_desc:after
+	display none
+	font-size 12px
+	color #f3f3f3
+.tablepress-responsive-all
+	width 100% !important;

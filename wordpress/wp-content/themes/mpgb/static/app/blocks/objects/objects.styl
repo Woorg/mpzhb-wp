@@ -1,0 +1,266 @@
+.objects
+	padding-top 67px
+	padding-bottom 82px
+	overflow hidden
+	+r($l)
+		padding-top 44px
+		padding-bottom 44px
+	+r($t)
+		padding-top 40px
+		padding-bottom 40px
+	&__title
+		margin-bottom 48px
+		@extends .title
+		text-align center
+		+r($l)
+			margin-bottom 24px
+		+r($m)
+			margin-bottom 31px
+	&__carousel
+		margin-bottom 60px
+		+r($l)
+			margin-bottom 30px
+	&__button-w
+		text-align center
+	&__button
+		&:hover
+			color #fff
+.carousel
+	&__list
+		font-size 0
+		height 480px
+		+r($l)
+			height 300px
+	&__item
+		width 480px
+		height 480px
+		display inline-block
+		vertical-align top
+		+r($l)
+			width 300px
+			height 300px
+	&__link
+		position relative
+		height 100%
+		display block
+		text-decoration none
+		color #fff
+		cursor pointer
+		text-align center
+		tr(all .3s ease)
+		object-fit cover
+		background-repeat no-repeat
+		background-size cover
+		&:after
+			position absolute
+			top 0
+			left 0
+			width 100%
+			height 100%
+			visibility hidden
+			opacity 0
+			background rgba(76, 186, 186,.4)
+			content ''
+			tr(all .3s ease)
+		&:hover
+			color #fff
+			text-decoration none
+			&:after
+				visibility visible
+				opacity 1
+			.carousel__w
+				z-index 1
+				visibility visible
+				opacity 1
+			.carousel__text
+				color #fff
+	&__w
+		position absolute
+		top 50%
+		left 50%
+		padding-right 50px
+		padding-left 50px
+		width 100%
+		transform translate(-50%, -50%)
+		visibility hidden
+		opacity 0
+		text-align center
+		tr(all .3s ease)
+	&__icon
+		margin-bottom 30px
+		display inline-block
+		vertical-align middle
+		retinaSprite($magnifying_glass_group)
+		+r($l)
+			margin-bottom 19px
+	&__text
+		font-family $mM
+		font-weight normal
+		font-size 18px
+		line-height 27px
+		text-transform uppercase
+		text-decoration none
+		+r($l)
+			font-size 14px
+			line-height 18px
+	.slick-arrow
+		z-index 1
+		width 40px
+		height 40px
+		background url('../images/general/slider-arrow.svg') 0 0 / cover no-repeat
+		hide-text()
+		opacity 1
+		tr(all .3s ease)
+		&:hover
+			background url('../images/general/slider-arrow.svg') 0 0 / cover no-repeat
+			opacity .8
+		&.slick-prev
+			left 10px
+			transform translateY(-50%) rotate(180deg)
+			+r($l)
+				left 10px
+		&.slick-next
+			right 10px
+			+r($l)
+				right 10px
+.objects-full
+	overflow hidden
+	&__nav-list
+		margin-bottom 40px
+		font-size 0
+		display flex
+		justify-content center
+		flex-wrap wrap
+		text-align center
+	.facetwp-facet
+		width 100%
+		display inline-block
+		vertical-align top
+		text-align center
+	.facetwp-loading
+		margin auto
+	&__nav-item,
+	.facetwp-radio
+		display inline-block
+		vertical-align top
+		font-family $mM
+		font-weight normal
+		font-size 14px
+		text-transform uppercase
+		+r($l)
+			font-size 12px
+		&.current-menu-item,
+		&.checked
+			border-radius 5px
+			border 2px solid #4cbaba
+			background-image none
+			background-color #ffffff
+		&.is-active,
+		&.is-passive
+			border-radius 5px
+			border 2px solid #4cbaba
+			background-color #ffffff
+
+	&__nav-link,
+	.facetwp-radio
+		border 2px solid transparent
+		padding-top 10px
+		padding-right 16px
+		padding-bottom 11px
+		padding-left 18px
+		background-image none
+		color #292929
+		text-decoration none
+		tr(all .3s ease)
+		&:hover
+			background-image none
+			color #292929
+			text-decoration none
+	.facetwp-counter
+		display none
+	&__list
+		margin-bottom 0
+		display flex
+		flex-wrap wrap
+		flex-grow 1
+		justify-content flex-start
+		+r($t)
+			justify-content center
+	&__item
+		width 25%
+		+r($l)
+			width 33%
+		+r($t)
+			width 50%
+		+r($m)
+			width 100%
+	&__link
+		position relative
+		z-index 1
+		padding-top 100%
+		height 100%
+		display block
+		text-decoration none
+		color #fff
+		cursor pointer
+		text-align center
+		tr(all .3s ease)
+		object-fit cover
+		background-position 50% 0
+		background-repeat no-repeat
+		&:after
+			position absolute
+			top 0
+			left 0
+			width 100%
+			height 100%
+			visibility hidden
+			opacity 0
+			background rgba(76, 186, 186,.4)
+			content ''
+			tr(all .3s ease)
+		&:hover
+			color #fff
+			text-decoration none
+			&:after
+				visibility visible
+				opacity 1
+			.objects-full__w
+				z-index 1
+				visibility visible
+				opacity 1
+			.objects-full__text
+				color #fff
+	&__w
+		position absolute
+		z-index 1
+		top 50%
+		left 50%
+		padding-right 50px
+		padding-left 50px
+		width 100%
+		transform translate(-50%, -50%)
+		visibility hidden
+		opacity 0
+		text-align center
+		tr(all .3s ease)
+	&__icon
+		margin-bottom 30px
+		display inline-block
+		vertical-align middle
+		retinaSprite($magnifying_glass_group)
+		+r($l)
+			margin-bottom 19px
+	&__text
+		font-family $mM
+		font-weight normal
+		font-size 18px
+		line-height 1.5
+		text-transform uppercase
+		text-decoration underline
+		+r($l)
+			font-size 14px
+			line-height 18px
+		+r($t)
+			font-size 12px
+

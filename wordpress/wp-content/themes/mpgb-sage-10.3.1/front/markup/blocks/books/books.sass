@@ -1,0 +1,380 @@
+.books
+  overflow: hidden
+  &__container
+    padding-top: 40px
+    padding-bottom: 40px
+    +mq($large)
+      padding-bottom: 60px
+      padding-top: 65px
+
+  &__title
+    margin-bottom: 14px
+
+  &__text
+    margin-bottom: 30px
+    color: #1b1e64
+    font-size: 14px
+    font-weight: 400
+    line-height: 1.571
+    +mq($medium)
+      font-size: 18px
+      line-height: 1.888
+
+  &__categories
+    display: block
+    overflow: hidden
+    +mq($medium)
+      margin-right: -35px
+      margin-left: -35px
+      display: flex
+
+  &__category
+    position: relative
+    // width: 295px
+    min-height: 110px
+    height: 100%
+    max-height: 110px
+    flex-grow: 1
+    overflow: hidden
+    +tr(.4s linear)
+    will-change: width, max-height, flex-grow
+    +mq($medium)
+      width: 20%
+      height: 580px
+      max-height: 580px
+    +mq($large)
+      height: 580px
+
+    &::after
+      z-index: 1
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      content: ''
+
+    &:hover
+      flex-grow: 5
+      will-change: flex-grow
+      +tr(.4s linear)
+
+    // &:not(.books__category_active)
+    //   +tr(.9s linear)
+    //   +mq($medium)
+    //     width: 145px
+
+    //   .books__cat-w
+    //     padding-bottom: 46px
+    //     min-height: 100%
+    //     justify-content: center
+    //     align-items: flex-end
+    //   .books__cat-title
+    //     padding-right: 0
+    //     padding-left: 0
+
+    //   .books__cat-title_horizontal
+    //     display: none
+    //     text-align: left
+
+    //     +tr(opacity .6s linear)
+
+    //   .books__cat-title_vertical
+    //     position: absolute
+    //     bottom: 156px
+    //     display: block
+    //     min-width: 260px
+    //     text-align: left
+    //     line-height: 1
+    //     transform: rotate(-90deg)
+
+    //     +tr(.6s linear)
+
+  &__category_active
+    position: relative
+    min-height: 360px
+    // max-height: 360px
+    // max-height: 460px
+    height: 100%
+    // display: flex
+    align-items: center
+    will-change: min-height, width
+    +tr(.4s linear)
+
+    +mq($medium)
+      width: 100%
+      height: 580px
+      max-height: 580px
+
+    &::before
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      content: ''
+      background-color: rgba(0, 0, 0, .2)
+
+    .books__gradient
+      display: none
+
+    .books__banner
+      top: 25px
+      bottom: 60px
+      right: 24px
+      left: 24px
+      width: initial
+      margin-right: auto
+      margin-left: auto
+      max-width: 100%
+      min-height: 280px
+      // transform: rotate(0deg)
+      will-change: opacity, transform
+      animation: fadeInUp .6s ease-in-out 0s forwards
+
+      +mq($medium)
+        top: 50px
+        bottom: 100px
+        right: 28px
+        left: 28px
+        min-height: 367px
+
+      +mq($large)
+        top: 110px
+        right: 28px
+        left: 28px
+        bottom: 160px
+        max-width: 587px
+
+        width: 100%
+        min-height: 342px
+
+    .books__picture
+      filter: grayscale(0%)
+      +tr(filter .4s ease-in-out)
+    .books__cat-w
+      opacity: 0
+
+  &__gradient
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+  &__picture
+    position: relative
+    z-index: -1
+    height: 100vh
+    display: block
+    filter: grayscale(100%)
+    +tr(filter .4s ease-in-out)
+    will-change: filter
+    +mq($medium)
+      height: 100%
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+      +mq($medium)
+        width: auto
+        object-position: 0% 0%
+
+  &__banner
+    position: absolute
+    margin-right: auto
+    margin-left: auto
+    padding-top: 15px
+    padding-right: 6px
+    padding-bottom: 23px
+    padding-left: 22px
+    width: 100%
+    min-height: 280px
+    color: #fff
+    text-align: left
+    will-change: opacity, transform
+    animation: fadeInDown .6s ease-in-out 0s forwards
+    +mq($medium)
+      top: 50px
+      bottom: 100px
+      padding-top: 30px
+      padding-bottom: 53px
+      padding-left: 36px
+      max-width: 429px
+      min-height: 367px
+
+    +mq($large)
+      padding-top: 27px
+      padding-right: 60px
+      padding-left: 48px
+      max-width: 587px
+      max-width: 0
+      min-height: 342px
+    &::after
+      position: absolute
+      z-index: -1
+      top: 100%
+      left: 30px
+      content: ''
+      width: 89px
+      height: 32px
+      background: #fff
+
+      +mq($large)
+        left: 50px
+        width: 153px
+        height: 54px
+
+  &__banner-badge
+    position: absolute
+    top: 100%
+    left: 0
+    +mq($large)
+      left: 50px
+
+  &__banner-title
+    margin-bottom: 10px
+    padding-right: 10px
+    color: #ffffff
+    font-weight: 500
+    font-size: 24px
+    line-height: 1.214
+    text-align: left
+    +mq($medium)
+      margin-right: 0
+      font-size: 30px
+      line-height: 1.433
+
+  &__banner-text
+    font-weight: 400
+    font-size: 14px
+    line-height: 1.571
+
+    +mq($medium)
+      margin-right: 0
+      font-size: 18px
+      line-height: 1.666
+
+  &__cat-w
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    width: 100%
+    min-height: 110px
+    display: flex
+    align-items: center
+    opacity: 1
+    +mq($medium)
+      padding-left: 0px
+      min-height: 178px
+
+  &__cat-title
+    padding-right: 15px
+    color: #ffffff
+    font-weight: 500
+    font-size: 24px
+    line-height: 1.416
+    text-align: left
+    opacity: 1
+    +mq($medium)
+      font-size: 20px
+
+      text-align: center
+    +mq($large)
+      padding-left: 0
+      font-size: 30px
+      line-height: 1.433
+
+  &__cat-w
+    padding-bottom: 0
+    padding-right: 0
+    padding-left: 15px
+
+    text-align: left
+    +mq($medium)
+      padding-bottom: 46px
+      padding-right: 15px
+      padding-left: 15px
+
+      min-height: 100%
+      justify-content: center
+      align-items: flex-end
+
+  &__cat-title
+    padding-right: 0
+    padding-left: 0
+
+  &__cat-title_horizontal
+    display: block
+    +mq($medium)
+      text-align: center
+
+
+  &__cat-title_vertical
+    position: absolute
+    bottom: 156px
+    display: none
+    min-width: 260px
+    text-align: left
+    line-height: 1
+    transform: rotate(-90deg)
+
+
+  &__cat-w_active
+    padding-bottom: 0
+    text-align: left
+    +mq($medium)
+      padding-left: 0
+      padding-bottom: 46px
+      min-height: 100%
+      justify-content: center
+      align-items: flex-end
+      opacity: 1
+      // +tr(opacity .6s linear)
+
+    .books__cat-title
+      position: relative
+
+      padding-right: 0
+      padding-left: 0
+
+    .books__cat-title_horizontal
+      display: block
+      +mq($medium)
+        display: none
+
+    .books__cat-title_vertical
+      display: none
+      +mq($medium)
+        position: absolute
+        bottom: 156px
+        display: block
+        min-width: 260px
+        text-align: left
+        line-height: 1
+        transform: rotate(-90deg)
+      +mq($large)
+        bottom: 216px
+        min-width: 360px
+
+@keyframes fadeInDown
+  from
+    opacity: 0
+    transform: translate3d(0, 0, 0)
+  to
+    opacity: 0
+    +mq($medium)
+      opacity: 1
+      transform: translate3d(-300%, 0, 0)
+@keyframes fadeInUp
+  from
+    opacity: 0
+    transform: translate3d(300%, 0, 0)
+  to
+    opacity: 1
+    transform: translate3d(0, 0, 0)
+
+
+
+

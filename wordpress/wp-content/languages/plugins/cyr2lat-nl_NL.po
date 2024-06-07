@@ -1,0 +1,331 @@
+# Translation of Plugins - Cyr-To-Lat - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Cyr-To-Lat - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-09-23 18:20:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Cyr-To-Lat - Stable (latest release)\n"
+
+#: src/php/Settings/Tables.php:98
+msgid "Chinese (China)"
+msgstr "Chinees (China)"
+
+#: src/php/Settings/Tables.php:97
+msgid "Hebrew"
+msgstr "Hebreeuws"
+
+#: src/php/Settings/Tables.php:96
+msgid "Kazakh"
+msgstr "Kazachs"
+
+#: src/php/Settings/Tables.php:95
+msgid "Georgian"
+msgstr "Georgisch"
+
+#: src/php/Settings/Tables.php:94
+msgid "Armenian"
+msgstr "Armeens"
+
+#: src/php/Settings/Tables.php:93
+msgid "Greek"
+msgstr "Grieks"
+
+#: src/php/Settings/Tables.php:92
+msgid "Serbian"
+msgstr "Servisch"
+
+#: src/php/Settings/Tables.php:91
+msgid "Macedonian"
+msgstr "Macedonisch"
+
+#: src/php/Settings/Tables.php:90
+msgid "Bulgarian"
+msgstr "Bulgaars"
+
+#: src/php/Settings/Tables.php:89
+msgid "Ukrainian"
+msgstr "Oekraïens"
+
+#: src/php/Settings/Tables.php:88
+msgid "Belarusian"
+msgstr "Wit-Russisch"
+
+#: src/php/Settings/Tables.php:87
+msgid "Default"
+msgstr "Standaard"
+
+#: src/php/Settings/Tables.php:192
+msgid "You are not allowed to perform this action."
+msgstr "Je hebt geen toestemming om deze actie uit te voeren."
+
+#: src/php/Settings/Tables.php:187
+msgid "Your session has expired. Please reload the page."
+msgstr "Je sessie is verlopen. Herlaad de pagina."
+
+#: src/php/Settings/SystemInfo.php:93
+msgid "Copy system info to clipboard"
+msgstr "Kopieer systeeminformatie naar klembord"
+
+#: src/php/Settings/SystemInfo.php:89
+msgid "System Information"
+msgstr "Systeem informatie"
+
+#: src/php/Settings/SystemInfo.php:69
+msgid "System info copied to clipboard."
+msgstr "Systeeminfo gekopieerd naar klembord."
+
+#: src/php/Settings/SystemInfo.php:41
+msgid "System Info"
+msgstr "Systeeminformatie"
+
+#. translators: 1: plugin version.
+#: src/php/Settings/PluginSettingsBase.php:231
+msgid "Version %s"
+msgstr "Versie %s"
+
+#. translators: 1: plugin name, 2: wp.org review link with stars, 3: wp.org
+#. review link with text.
+#: src/php/Settings/PluginSettingsBase.php:196
+msgid "Please rate %1$s %2$s on %3$s. Thank you!"
+msgstr "Waardeer %1$s %2$s op %3$s. Bedankt!"
+
+#: src/php/Settings/Converter.php:206
+msgid "Post Types and Statuses"
+msgstr "Berichttypen en statussen"
+
+#: libs/wp-background-processing/wp-background-process.php:575
+msgid "Every Minute"
+msgstr "Elke minuut"
+
+#: src/php/Settings/Tables.php:48
+msgid "Tables"
+msgstr "Tabellen"
+
+#: src/php/Settings/Converter.php:257
+msgid "Upon conversion of attachments, please regenerate thumbnails."
+msgstr "Genereer thumbnails opnieuw na het converteren van bijlagen."
+
+#: src/php/Settings/Converter.php:248
+msgid ""
+"Also, you have to make a copy of your media files if the attachment post type is selected for\n"
+"\t\t\t\tconversion."
+msgstr ""
+"Je moet ook een kopie maken van je mediabestanden als het bijlage berichttype is geselecteerd voor\n"
+"\t\t\t\tconversie."
+
+#: src/php/Settings/Converter.php:198
+msgid "Existing <strong>product attribute</strong> slugs will <strong>NOT</strong> be converted."
+msgstr "Bestaande slugs van <strong>product attribuut</strong> worden <strong>NIET</strong> geconverteerd."
+
+#: src/php/Settings/Converter.php:192
+msgid "Existing Slugs Conversion Settings"
+msgstr "Bestaande conversie-instellingen voor slugs"
+
+#: src/php/Settings/Converter.php:73
+msgid "Post statuses included in the conversion."
+msgstr "Bericht statussen die zijn opgenomen in de conversie."
+
+#: src/php/Settings/Converter.php:69
+msgid "Post Statuses"
+msgstr "Bericht statussen"
+
+#: src/php/Settings/Converter.php:129
+msgid "Post types included in the conversion."
+msgstr "Berichttypen die zijn opgenomen in de conversie."
+
+#: src/php/Settings/Converter.php:125
+msgid "Post Types"
+msgstr "Berichttypes"
+
+#: src/php/Settings/Converter.php:40
+msgid "Converter"
+msgstr "Converter"
+
+#: src/php/Settings/Converter.php:270
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: src/php/Settings/Converter.php:267
+msgid "OK"
+msgstr "OK"
+
+#: src/php/Settings/Converter.php:263
+msgid "Are you sure to continue?"
+msgstr "Weet je zeker dat je door wil gaan?"
+
+#: src/php/Settings/Converter.php:240
+msgid "This operation is irreversible. Please make sure that you have made a backup copy of your database."
+msgstr "Deze operatie is onomkeerbaar. Zorg ervoor dat je een back-up kopie hebt gemaakt van je database."
+
+#: src/php/Settings/Converter.php:238
+msgid "Important:"
+msgstr "Belangrijk:"
+
+#: src/php/Settings/Tables.php:212
+msgid "Options saved."
+msgstr "Opties opgeslagen."
+
+#: src/php/BackgroundProcesses/PostConversionProcess.php:130
+msgid "Cannot rename thumbnail file:"
+msgstr "Kan thumbnail bestand niet hernoemen:"
+
+#: src/php/BackgroundProcesses/PostConversionProcess.php:127
+msgid "Thumbnail file renamed:"
+msgstr "Thumbnail bestand hernoemd:"
+
+#: src/php/BackgroundProcesses/PostConversionProcess.php:109
+msgid "Cannot convert attachment file for attachment id:"
+msgstr "Kan bijlagebestand niet converteren voor bijlage id:"
+
+#: src/php/BackgroundProcesses/PostConversionProcess.php:103
+msgid "Attachment file converted:"
+msgstr "Bijlagebestand geconverteerd:"
+
+#: src/php/Settings/Tables.php:122
+msgid "(current)"
+msgstr "(actueel)"
+
+#: src/php/Requirements.php:245
+msgid "See: <a href=\"https://sevenspark.com/docs/ubermenu-3/faqs/menu-item-limit\" target=\"_blank\">Increasing max input vars limit.</a>"
+msgstr "Zie: <a href=\"https://sevenspark.com/docs/ubermenu-3/faqs/menu-item-limit\" target=\"_blank\">Verhogen limiet voor maximale invoer var.</a>"
+
+#: src/php/Requirements.php:242
+msgid "Please increase max input vars limit up to 1500."
+msgstr "Verhoog de limiet voor max. Input var tot 1500."
+
+#. translators: 1: Wait time in seconds
+#: src/php/Requirements.php:177
+msgid "Please try again in %d s."
+msgstr "Probeer het over %d s opnieuw."
+
+#. translators: 1: .user.ini filename
+#: src/php/Requirements.php:174
+msgid "We have updated settings in %s."
+msgstr "We hebben instellingen geüpdatet in %s."
+
+#. translators: 1: max_input_vars value, 2: Cyr To Lat version, 3: Minimum
+#. required max_input_vars
+#: src/php/Requirements.php:170
+msgid "Your server is running PHP with max_input_vars=%1$d but Cyr To Lat %2$s requires at least %3$d."
+msgstr "Je server draait PHP met max_input_vars = %1$d , maar voor Cyr To Lat %2$s is ten minste %3$d vereist."
+
+#: src/php/Requirements.php:117
+msgid "Cyr To Lat plugin has been deactivated."
+msgstr "Cyr Om Lat plugin is gedeactiveerd geweest."
+
+#: src/php/Requirements.php:153
+msgid "Unable to get filesystem access."
+msgstr "Kan geen toegang krijgen tot het bestandssysteem."
+
+#: libs/wp-background-processing/wp-background-process.php:577
+msgid "Every %d Minutes"
+msgstr "Elke %d minuten"
+
+#. translators: 1: Current PHP version number, 2: Cyr To Lat version, 3:
+#. Minimum required PHP version number
+#: src/php/Requirements.php:132
+msgid "Your server is running PHP version %1$s but Cyr To Lat %2$s requires at least %3$s."
+msgstr "Op je server wordt PHP-versie %1$s uitgevoerd, maar voor Cyr To Lat %2$s is ten minste %3$s vereist."
+
+#: src/php/Converter.php:262
+msgid "Cyr To Lat has not found existing term slugs for conversion."
+msgstr "Cyr Om Lat heeft bestaande term slugs gevonden voor conversie."
+
+#: src/php/Converter.php:275
+msgid "Cyr To Lat started conversion of existing term slugs."
+msgstr "Cyr To Lat is begonnen met de conversie van bestaande term slugs."
+
+#: src/php/Converter.php:273
+msgid "Term slugs conversion started."
+msgstr "Conversie van term slugs is begonnen."
+
+#: src/php/Converter.php:225
+msgid "Cyr To Lat has not found existing post slugs for conversion."
+msgstr "Cyr To Lat hebt geen bestaande bericht slugs gevonden voor conversie."
+
+#: src/php/Converter.php:238
+msgid "Cyr To Lat started conversion of existing post slugs."
+msgstr "Cyr To Lat begon met de conversie van bestaande bericht slugs."
+
+#: src/php/Converter.php:236
+msgid "Post slugs conversion started."
+msgstr "Conversie van bericht slugs is begonnen."
+
+#: src/php/Converter.php:134
+msgid "Cyr To Lat completed conversion of existing term slugs."
+msgstr "Cyr To Lat heeft de conversie van bestaande term slugs afgerond."
+
+#: src/php/Converter.php:127
+msgid "Cyr To Lat completed conversion of existing post slugs."
+msgstr "Cyr To Lat heeft de conversie van bestaande bericht slugs afgerond."
+
+#: src/php/Converter.php:120
+msgid "Cyr To Lat converts existing term slugs in the background process."
+msgstr "Cyr To Lat zet bestaande term slugs om in het achtergrondproces."
+
+#: src/php/Converter.php:113
+msgid "Cyr To Lat converts existing post slugs in the background process."
+msgstr "Cyr To Lat zet bestaande bericht slugs om in het achtergrondproces."
+
+#: src/php/BackgroundProcesses/PostConversionProcess.php:202
+msgid "Post slugs conversion completed."
+msgstr "Conversie van bericht slugs afgerond."
+
+#: src/php/BackgroundProcesses/PostConversionProcess.php:74
+msgid "Post slug converted:"
+msgstr "Bericht slug geconverteerd:"
+
+#: src/php/BackgroundProcesses/TermConversionProcess.php:89
+msgid "Term slugs conversion completed."
+msgstr "Conversie van term slugs afgerond."
+
+#: src/php/BackgroundProcesses/TermConversionProcess.php:75
+msgid "Term slug converted:"
+msgstr "Term slug geconverteerd:"
+
+#: src/php/Settings/PluginSettingsBase.php:37
+#: src/php/Settings/PluginSettingsBase.php:158
+msgid "Cyr To Lat"
+msgstr "Cyr To Lat"
+
+#: src/php/Settings/Converter.php:176
+msgid "Convert Existing Slugs"
+msgstr "Bestaande slug converteren"
+
+#: src/php/Settings/PluginSettingsBase.php:118
+msgid "Settings"
+msgstr "Instellingen"
+
+#: src/php/Settings/PluginSettingsBase.php:109
+msgid "View Cyr To Lat settings"
+msgstr "Cyr To Lat instellingen bekijken"
+
+#. Author URI of the plugin
+#: cyr-to-lat.php
+msgid "https://profiles.wordpress.org/sergeybiryukov/"
+msgstr "https://profiles.wordpress.org/sergeybiryukov/"
+
+#. Author of the plugin
+#: cyr-to-lat.php
+msgid "Sergey Biryukov, Mikhail Kobzarev, Igor Gergel"
+msgstr "Sergey Biryukov, Mikhail Kobzarev, Igor Gergel"
+
+#. Description of the plugin
+#: cyr-to-lat.php
+msgid "Convert Non-Latin characters in post and term slugs to Latin characters. Useful for creating human-readable URLs. Based on the original plugin by Anton Skorobogatov."
+msgstr "Zet niet latijnse karakters in bericht- en term slugs om in latijnse karakters. Handig voor het maken van voor mensen leesbare URL's. Gebaseerd op de originele plugin door Anton Skorobogatov."
+
+#. Plugin URI of the plugin
+#: cyr-to-lat.php
+msgid "https://wordpress.org/plugins/cyr2lat/"
+msgstr "https://wordpress.org/plugins/cyr2lat/"
+
+#. Plugin Name of the plugin
+#: cyr-to-lat.php
+msgid "Cyr-To-Lat"
+msgstr "Cyr-To-Lat"

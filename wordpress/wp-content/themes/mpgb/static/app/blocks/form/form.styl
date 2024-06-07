@@ -1,0 +1,204 @@
+.form
+	padding-top 20px
+	padding-right 27px
+	padding-bottom 10px
+	padding-left 27px
+	border-radius 5px
+	border 2px solid #eec400
+	background-color #fff
+	&__title
+		margin-bottom 20px
+		@extends .subtitle
+		font-size 18px
+		line-height 1.55555555555556
+		text-align center
+	&__field-w
+		display flex
+	&__field
+		margin-bottom 12px
+	&__field_message
+		margin-bottom 18px
+	&__field_select,
+	.facetwp-dropdown
+		margin-bottom 10px
+	.facetwp-date
+		margin-bottom 5px
+	&__field_file
+		margin-bottom 16px
+		overflow hidden
+	&__label
+		margin-bottom 5px
+		font-weight normal
+		font-size 14px
+		display block
+		letter-spacing tracking(-25, 14)
+		cursor pointer
+	&__label_file
+		position relative
+		white-space nowrap
+	&__input,
+	&__textarea,
+	&__select,
+	.facetwp-dropdown,
+	.facetwp-date
+		padding-left 10px
+		padding-right 10px
+		width 100%
+		height 47px
+		border-radius 5px
+		border 2px solid #eeeeee
+		background-color #ffffff
+		color #7f7f7f
+		font-size 14px
+		+placeholder()
+			color #7f7f7f
+		&:focus
+			border 2px solid #4cbaba
+		&.ui-state-valid
+			color #3f3f3f
+		&.ui-state-error ~
+			.form__label
+				display block
+	&__textarea
+		padding-top 5px
+		min-height 140px
+	&__file
+		display none
+		&:checked
+			display block
+	&__file-button
+		margin-right 5px
+		padding-top 10px
+		padding-right 16px
+		padding-bottom 10px
+		padding-left 16px
+		display inline-block
+		vertical-align middle
+		background #EEE
+		color #292929
+		font-family $mM
+		font-weight normal
+		font-size 12px
+		text-transform uppercase
+		letter-spacing tracking(-25, 12)
+		border-radius 5px
+		tr(all .3s ease)
+		&:hover
+			background darken(#EEE, 10)
+	&__file-text
+		max-width 154px
+		display inline-block
+		vertical-align middle
+		color #7f7f7f
+		text-overflow ellipsis
+		overflow hidden
+		+r($d)
+			max-width 100%
+	.form__file-input
+		display none
+	&__submit
+		padding-top 16px
+		padding-right 10px
+		padding-bottom 17px
+		padding-left 10px
+		width 100%
+		font-family $mM
+		font-weight normal
+		font-size 14px
+.form_second
+	padding-bottom 20px
+	.form__button-w
+		display flex
+		flex-wrap wrap
+		justify-content space-between
+	.form__reset,
+	.form__submit
+		width 100%
+.form_third
+	.form__field_file
+		margin-bottom 12px
+	.form__file-button
+		margin-right 0
+	.form__file-button,
+	.form__file-text
+		font-size 12px
+.form_fourth,
+.form_five
+	position relative
+	margin auto
+	max-width 750px
+	div.wpcf7
+		.ajax-loader
+			display none
+	.form__title
+		font-size 24px
+		+r($t)
+			font-size 18px
+	.form__field-w
+		display flex
+		flex-wrap wrap
+		justify-content space-between
+	.form__input,
+	.form__textarea
+		&:focus
+			outline none
+			border 2px solid #4cbaba
+	.form__field_text
+		width 49%
+		+r($t)
+			width 100%
+	form
+		clr()
+	.form__field_message
+		clear both
+	.form__note
+		margin-bottom 18px
+		font-weight normal
+		font-size 14px
+		line-height 1.2
+		display block
+		letter-spacing tracking(-25, 14)
+		cursor pointer
+		color #292929
+		// width 60%
+		+r($t)
+			font-size 12px
+		a
+			color #292929
+			text-decoration underline
+			&:hover
+				color #292929
+				text-decoration none
+	.form__label_file
+		margin-bottom 0
+	.form__button-w
+		margin-bottom 10px
+		text-align right
+	.form__submit
+		width auto
+		+r($t)
+			width 100%
+
+.form_five
+	max-width 555px
+	.form__field_text
+		width 100%
+
+form
+	br
+		display none
+	p
+		margin 0
+	div.wpcf7-response-output
+		margin-top 0
+		margin-left 0
+		margin-right 0
+		margin-bottom 20px
+		width 100%
+		font-size 12px
+	div.wpcf7 .ajax-loader
+		display none
+	span.wpcf7-not-valid-tip
+		font-size 12px
+	.facetwp-facet
+		margin-bottom 0

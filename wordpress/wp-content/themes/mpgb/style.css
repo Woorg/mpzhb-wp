@@ -1,0 +1,45 @@
+/*!
+Theme Name: MPGB
+Theme URI: https://diagramma.org/
+Author: Diagramma
+Author URI: https://diagramma.org/
+Description: WordPress Site for Good Company
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: mpgb
+Tags: ACFPro
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+/*--------------------------------------------------------------
+>>> STYLES:
+----------------------------------------------------------------
+*/
+
+.obj_tabs, .obj_tabs nav {
+    text-align: center;
+}
+
+.obj_tabs ul {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.obj_tabs ul li {
+    margin: 0 5px;
+    display: inline-block;
+    float: none;
+}
+
+.slider__item-w {
+    position: static !important;
+    margin: 150px auto 0 !important;
+    width: auto !important;
+    text-align: center !important;
+    transform: none !important;
+}

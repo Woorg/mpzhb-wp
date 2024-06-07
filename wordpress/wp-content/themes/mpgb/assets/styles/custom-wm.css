@@ -1,0 +1,365 @@
+.dataTables_length, .dataTables_filter, .dataTables_paginate, .dataTables_info {
+    display: none;
+}
+.slick-track {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.related__button {
+    margin-bottom: 30px;
+    display: none;
+}
+body .dataTables_wrapper .tablepress thead th {
+    //padding: 14px 5px;
+    font-size: 13px;
+    //white-space: normal;
+}
+.dataTables_wrapper thead tr th:nth-child(4), .dataTables_wrapper thead tr th:nth-child(5), .tablepress thead tr th:nth-child(4), .tablepress thead tr th:nth-child(5)  {
+    white-space: normal;
+}
+.top_0 {
+    top: 0px !important;
+}
+
+.tablepress tbody tr td:first-child, .table tbody tr td:first-child {
+    padding-left: 15px;
+}
+.tablepress tbody tr td:last-child, .table tbody tr td:last-child {
+    padding-right: 15px;
+}
+body .dataTables_wrapper .tablepress thead th:first-child {
+    padding-left: 15px;
+}
+.dataTables_wrapper thead tr th:last-child, .tablepress thead tr th:last-child {
+    padding-right: 15px;
+}
+@media (min-width: 1024px){
+    .related__button {
+        margin-bottom: 38px;
+    }
+    .catalog__image img {
+        max-width: 98%;
+    }
+    /* меню */
+    .subnav {
+        top: 100%;
+        width: 300px;
+        /*left: 333px;*/
+        left: 0;
+        padding: 19px 25px;
+        background-color: #292929;
+    }
+    .subnav__list .subnav__item {
+        width: 100%;
+        font-size: 10px;
+    }
+    .subnav__list .subnav__item:first-child .subnav__link, .subnav__list .subnav__link-title  {
+        color: #a0a0a0;
+        font-size: 14px;
+        text-decoration: none;
+        text-transform: none;
+    }
+    li.subnav__item.active-wm, .subnav__item:hover {
+        background: #4cbaba;
+        color: #fff;
+        width: auto;
+        margin-left: -25px;
+        padding-left: 25px;
+        margin-right: -25px !important;
+        padding-right: 25px;
+    }
+    li.subnav__item:hover a, li.subnav__item.active-wm a {
+        color: #fff  !important;
+    }
+    li.subnav__item {
+        padding-top: 9px;
+    }
+    .subnav__list .subnav__item {
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 1024px){
+    body .dataTables_wrapper {
+        overflow: scroll;
+    }
+    .card__text {
+        overflow: scroll;
+    }
+}
+@media (max-width: 768px) {
+    .nav__checkbox:checked + .nav__list {
+        background: #292929;
+    }
+    .nav__link, .nav a {
+        color: #fff;
+    }
+    label.nav__trigger {
+        background: #292929;
+    }
+    .nav__trigger {
+        color: #fff;
+    }
+    .nav__trigger-icon {
+        fill: #4CBABB;
+    }
+    .nav__checkbox:checked+.nav__list .subnav {
+        background: #292929;
+    }
+    .subnav__list .subnav__link-title, .subnav__list .subnav__item:first-child .subnav__link  {
+        color: #a0a0a0;
+        text-decoration: none;
+        text-transform: initial;
+    }
+    .nav__link:after, .nav a:after {
+        background: url(../images/general/nav-icon2.svg) 0 0/cover no-repeat;
+    }
+    .article__button-w .button {
+        padding: 16.5px 30px;
+    }
+    li.subnav__item {
+        padding-top: 9px;
+    }
+    li.subnav__item.active-wm {
+        background: #4cbaba;
+        color: #fff;
+        width: auto;
+        margin-left: -21px;
+        padding-left: 21px;
+        margin-right: -21px !important;
+        padding-right: 21px;
+    }
+    .subnav__item:hover {
+        background: #4cbaba;
+        color: #fff;
+        width: auto;
+        margin-left: -21px;
+        padding-left: 21px;
+        margin-right: -21px !important;
+        padding-right: 21px;
+    }
+    li.subnav__item:hover a {
+        color: #fff  !important;
+    }
+    li.subnav__item.active-wm a {
+        color: #fff  !important;
+     }
+    /*.header__nav.nav {
+        position: absolute;
+        top: 65%;
+        width: 100%;
+        left: 0px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .header__body .container.header__in {
+        padding-bottom: 71px;
+    }*/
+    .main__title {
+        word-wrap: break-word;
+    }
+    .nav__checkbox:checked+.nav__list .nav__link, .nav__checkbox:checked+.nav__list .nav a {
+        width: auto;
+        float: left;
+    }
+    .nav__checkbox:checked+.nav__list .nav__link:after, .nav__checkbox:checked+.nav__list .nav a:after {
+        right: -16px;
+    }
+    .footer__body {
+        padding-top: 54px;
+    }
+    .catalog__image img {
+        max-width: 64%;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 361px) {
+    /* vacancy */
+    h1 {
+        font-size: 28px !important;
+    }
+    h2 {
+        font-size: 18px !important;
+    }
+    .vacancies__form {
+        margin-bottom: 50px;
+    }
+    .footer__body {
+        padding-bottom: 0px;
+    }
+    .wpcf7 .button {
+        padding: 16px 30px;
+    }
+    /* home */
+    .services__item-title {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    /* history */
+    .history__image img {
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 25px;
+    }
+    .advantages {
+        background-color: rgb(238, 238, 238);
+    }
+    .home .advantages {
+        background: #4cbaba;
+    }
+    /* objects */
+    .objects-full__text {
+        text-decoration: none;
+    }
+    /* product */
+    .card__slider {
+        height: 460px;
+    }
+    .card__slider-image {
+        min-height: 460px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .card__thumbs-img {
+        max-width: 64%;
+    }
+    .card__thumbs-img img {
+        max-width: 100%;
+    }
+    body .dataTables_wrapper .tablepress thead th {
+        font-size: 12px;
+    }
+    h2.related__title {
+        font-size: 24px !important;
+        margin-top: 15px;
+    }
+    .related__image img {
+        width: 157px;
+    }
+    .related__image {
+        width: 100%;
+        height: 161px;
+    }
+    .related__item {
+        margin-right: 14px;
+    }
+    .related__item:nth-child(3) {
+        margin-right: 0px;
+    }
+    .related__item:last-child {
+        margin-right: 0px;
+    }
+    .related__item.col-sm-4 {
+        width: 30%;
+    }
+    .related__list {
+        margin-bottom: 0px;
+    }
+    .related__button {
+        margin-bottom: 37px;
+    }
+    .footer__col {
+        margin-bottom: 38px;
+    }
+}
+@media (max-width: 768px) and (min-width: 730px) {
+    .related__item.col-sm-4 {
+        width: 32% !important;
+    }
+    .dataTables_wrapper thead tr th:first-child, .tablepress thead tr th:first-child {
+        width: 74px !important;
+    }
+    .card__slider {
+        height: 625px;
+    }
+    .card__slider-image {
+        min-height: 620px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 768px) and (min-width: 360px) {
+    .vacancies__form {
+        margin-bottom: 50px;
+    }
+    .footer__body {
+        padding-bottom: 0px;
+    }
+    .wpcf7 .button {
+        padding: 16.5px 30px;
+    }
+    .card__thumbs-img {
+        max-width: 90%;
+    }
+    aside.form {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 768px) and (min-width: 730px) {
+    .card__thumbs-img {
+        max-width: 64%;
+    }
+    .card__slider-image img {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 600px) {
+    .contacts__address-icon {
+        top: 23% !important;
+    }
+    .card__slider-image {
+        width: auto;
+        margin: 0 auto;
+    }
+
+}
+@media only screen and (max-width: 425px) and (min-width: 361px) {
+    .footer__col:last-child {
+        margin-bottom: 45px;
+    }
+    .card__thumbs-img img {
+        padding: 20px;
+    }
+}
+@media (max-width: 360px) {
+    .services__item-title {
+        line-height: 1.5;
+        font-weight: 600;
+    }
+    .advantages {
+        background-color: rgb(238, 238, 238);
+    }
+    aside.form {
+        margin-bottom: 50px;
+    }
+    .catalog__image {
+        height: 312px;
+    }
+    .contacts__address-icon {
+        top: 16% !important;
+    }
+
+    .related__image img {
+        width: 330px;
+    }
+    .related__image {
+        height: 331px;
+    }
+    .related__title {
+        margin-top: 15px;
+    }
+    .tablepress tbody tr td:last-child {
+        padding-right: 12px;
+    }
+    .wpcf7 .button {
+        padding: 16px 30px;
+    }
+    .footer__col:last-child {
+        margin-bottom: 15px;
+    }
+    .home .advantages {
+        background: #4cbaba;
+    }
+}

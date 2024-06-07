@@ -1,0 +1,60 @@
+.clients
+	display block
+	background #eee
+	&__in
+		padding-top 72px
+		padding-bottom 72px
+		+r($l)
+			padding-top 36px
+			padding-bottom 36px
+		+r($t)
+			padding-top 40px
+			padding-bottom 20px
+	&__title
+		margin-bottom 50px
+		@extends .title
+		text-align center
+		+r($l)
+			margin-bottom 25px
+		+r($m)
+			margin-bottom 31px
+	&__list-w
+		overflow hidden
+	&__list
+		font-size 0
+		margin-right ratio-percentage(-30, 1170)
+		+r($m)
+			margin-right 0
+	&__item
+		margin-right ratio-percentage(30, 1170)
+		margin-bottom 30px
+		width ratio-percentage(262, 1170)
+		height 262px
+		display inline-block
+		vertical-align top
+		&:nth-child(2n)
+			+r($m)
+				margin-right 0
+		+r($l)
+			height 164px
+		// +r($t)
+		// 	width 47.4%
+		// 	height 262px
+		+r($m)
+			margin-right 30px
+			width 44.8%
+			height 102px
+			overflow hidden
+	&__link
+		position relative
+		height 100%
+		display block
+		background #fff
+		img
+			position absolute
+			top 50%
+			left 50%
+			display block
+			max-width 100%
+			height auto
+			transform translate(-50%, -50%)

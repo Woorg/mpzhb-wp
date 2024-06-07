@@ -1,0 +1,304 @@
+.flex
+  display: flex
+
+.title
+  color: #1b1e64
+  font-size: 30px
+  font-weight: 700
+  line-height: 1
+  +mq($medium)
+    font-size: 34px
+
+  +mq($large)
+    font-size: 50px
+    line-height: 1.22
+
+.button
+  +resetbutton()
+  padding-top: 8px
+  padding-right: 55px
+  padding-bottom: 9px
+  padding-left: 55px
+  height: 42px
+  background-color: #1b1e64
+  color: #ffffff
+  font-size: 16px
+  font-weight: 700
+  line-height: 1
+  text-decoration: none
+  +tr(background-color .3s ease)
+
+  &:hover
+    background-color: lighten(#1b1e64, 10)
+    +tr(background-color .3s ease)
+
+
+.wysiwyg
+  h1
+    font-size: 2.44em
+    line-height: 1.4
+    margin-top: .67em
+    margin-bottom: .67em
+    color: inherit
+  h2
+    font-size: 1.95em
+    line-height: 1.4
+    margin-top: .83em
+    margin-bottom: .83em
+    color: inherit
+  h3
+    font-size: 1.56em
+    line-height: 1.4
+    margin-top: 1em
+    margin-bottom: 1em
+    color: inherit
+  h4
+    font-size: 1.25em
+    line-height: 1.5
+    margin-top: 1.33em
+    margin-bottom: 1.33em
+    color: inherit
+  h5
+    font-size: 1em
+    margin-top: 1.67em
+    margin-bottom: 1.67em
+    color: inherit
+  h6
+    font-size: .8em
+    margin-top: 2.33em
+    margin-bottom: 2.33em
+    color: inherit
+  p
+    margin-top: 15px
+    margin-bottom: 15px
+    font-weight: 400
+    line-height: 1.706
+    +mq($medium)
+      margin-top: 28px
+      margin-bottom: 28px
+      font-size: 18px
+
+  ol
+    margin-bottom: 28px
+    padding-left: 1.3em
+    margin-left: 1.3em
+    font-weight: normal
+    font-size: 14px
+    line-height: 1.706
+    list-style-type: decimal
+    +mq($medium)
+      font-size: 18px
+
+    li
+      margin-bottom: 14px
+
+    ol
+      margin-bottom: 14px
+
+    ul
+      margin-bottom: 14px
+      list-style-type: circle
+
+  ul
+    margin-bottom: 28px
+    padding-left: 1.3em
+    margin-left: 1.3em
+    font-weight: normal
+    font-size: 14px
+    line-height: 1.706
+    list-style-type: disc
+    +mq($medium)
+      font-size: 18px
+    li
+      margin-bottom: 14px
+
+    ol
+      margin-bottom: 14px
+
+    ul
+      margin-bottom: 14px
+      list-style-type: circle
+
+  abbr
+    margin-bottom: 28px
+    font-style: italic
+    font-size: 14px
+    font-weight: 400
+    line-height: 1.706
+    +mq($medium)
+      font-size: 18px
+
+  a
+    transition: none
+
+  code
+    padding: 0
+    margin: 0
+    background: inherit
+    font-size: inherit
+    font-family: monospace
+
+  kbd
+    padding: 0
+    margin: 0
+    background: inherit
+    font-size: inherit
+    font-family: monospace
+
+  hr
+    box-sizing: content-box
+    height: 0
+    overflow: visible
+
+  pre
+    font-family: monospace, monospace
+    font-size: 1em
+
+  .wp-caption
+    margin-bottom: 1.5em
+    max-width: 100%
+
+
+  .wp-caption
+    img[class*="wp-image-"]
+      display: block
+      margin-left: auto
+      margin-right: auto
+
+
+  .wp-caption .wp-caption-text
+    margin: 0.8075em 0
+
+
+  .wp-caption-text
+    text-align: center
+
+
+  .gallery
+    margin-bottom: 1.5em
+    display: grid
+    grid-gap: 1.5em
+
+
+  .gallery-item
+    display: inline-block
+    text-align: center
+    width: 100%
+
+
+  .gallery-columns-2
+    grid-template-columns: repeat(2, 1fr)
+
+
+  .gallery-columns-3
+    grid-template-columns: repeat(3, 1fr)
+
+
+  .gallery-columns-4
+    grid-template-columns: repeat(4, 1fr)
+
+
+  .gallery-columns-5
+    grid-template-columns: repeat(5, 1fr)
+
+
+  .gallery-columns-6
+    grid-template-columns: repeat(6, 1fr)
+
+
+  .gallery-columns-7
+    grid-template-columns: repeat(7, 1fr)
+
+
+  .gallery-columns-8
+    grid-template-columns: repeat(8, 1fr)
+
+
+  .gallery-columns-9
+    grid-template-columns: repeat(9, 1fr)
+
+
+  .gallery-caption
+    display: block
+
+
+  b,
+  strong
+    font-weight: bolder
+
+  em,
+  i
+    font-style: italic
+
+  small
+    font-size: 80%
+
+  sub,
+  sup
+    font-size: 75%
+    line-height: 0
+    position: relative
+    vertical-align: baseline
+
+  sub
+    bottom: -0.25em
+
+  sup
+    top: -0.5em
+
+
+.entry-content
+  img
+    margin: 0 0 1.5em 0
+
+.alignleft,
+img.alignleft
+  margin-right: 1.5em
+  display: inline
+  float: left
+
+.alignright,
+img.alignright
+  margin-left: 1.5em
+  display: inline
+  float: right
+
+.aligncenter,
+img.aligncenter
+  margin-right: auto
+  margin-left: auto
+  display: block
+  clear: both
+
+
+.wp-caption
+  margin-bottom: 1.5em
+  text-align: center
+  padding-top: 5px
+  img
+    border: 0 none
+    padding: 0
+    margin: 0
+  p
+    &.wp-caption-text
+      line-height: 1.5
+      font-size: 10px
+      margin: 0
+
+.wp-smiley
+  margin: 0 !important
+  max-height: 1em
+
+blockquote
+  &.left
+    margin-right: 20px
+    text-align: right
+    margin-left: 0
+    width: 33%
+    float: left
+  &.right
+    margin-left: 20px
+    text-align: left
+    margin-right: 0
+    width: 33%
+    float: right

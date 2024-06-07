@@ -1,0 +1,21 @@
+extends /blocks/layout-default/layout-objects
+
+include /blocks/header/header
+include /blocks/breadcrumbs/breadcrumbs
+include /blocks/main/main
+include /blocks/objects/objects
+include /blocks/about/about
+include /blocks/footer/footer
+
+block head
+	- var pageTitle = 'Наши объекты - Моспромжелезобетон';
+
+block content
+	+header()
+	+breadcrumbs-objects()
+	main.main
+		section.main__in.container
+			h1.main__title Наши объекты
+
+		+objects-full()
+	+footer()

@@ -1,0 +1,1776 @@
+# Translation of Plugins - TablePress &#8211; Tables in WordPress made easy - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - TablePress &#8211; Tables in WordPress made easy - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-22 16:00:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - TablePress &#8211; Tables in WordPress made easy - Stable (latest release)\n"
+
+#: views/view-options.php:57
+msgid "Custom Styling"
+msgstr "Aangepaste stijling"
+
+#: views/view-options.php:56
+msgid "beta"
+msgstr "beta"
+
+#: views/view-options.php:56
+msgid "Premium"
+msgstr "Premium"
+
+#: views/view-options.php:56
+msgid "Default Styling %s"
+msgstr "Standaard lay-out %s"
+
+#: views/view-options.php:108
+msgid "Screenshot of the Default Style Customizer that is part of the TablePress premium versions."
+msgstr "Schermafbeelding van de Default Style Customizer die deel uitmaakt van de TablePress premium versies."
+
+#: views/view-options.php:99
+msgid "Change your tables’ default style without touching CSS code!"
+msgstr "Verander de standaardstijl van je tabellen zonder CSS code aan te raken!"
+
+#: views/view-options.php:98
+msgid "Choose from multiple style variations or define your own color scheme in an easy-to-use visual tool!"
+msgstr "Kies uit meerdere stijlvariaties of bepaal je eigen kleurenschema in een gemakkelijk te gebruiken visueel gereedschap!"
+
+#: views/view-options.php:97
+msgid "The TablePress premium versions come with a table default style customizer!"
+msgstr "De premium versies van TablePress worden geleverd met een aangepaste standaardstijl voor tabellen!"
+
+#: views/view-options.php:103
+msgid "Find out more"
+msgstr "Kom meer te weten"
+
+#: views/view-list.php:88
+msgid "More great features and priority email support are available with a Premium license plan. <a href=\"%s\">Check them out!</a>"
+msgstr "Meer geweldige functies en ondersteuning per e-mail met prioriteit zijn beschikbaar met een Premium licentie. <a href=\"%s\">Bekijk ze!</a>"
+
+#: views/view-import.php:148
+msgid "You can automate the import of tables from URLs or server files with the <a href=\"%1$s\">“%2$s” premium feature</a>!"
+msgstr "Je kunt het importeren van tabellen vanuit URL's of serverbestanden automatiseren met de <a href=\"%1$s\">\"%2$s\" premium functie</a>!"
+
+#: views/view-import.php:147
+msgid "Pro Tip:"
+msgstr "Pro tip:"
+
+#: controllers/environment-checks.php:75
+msgid "<a href=\"%s\">Learn more about updating PHP</a> or contact your server administrator."
+msgstr "<a href=\"%s\">Lees meer over het updaten van pHP</a> of neem contact op met je serverbeheerder."
+
+#: controllers/environment-checks.php:72
+msgid "Your server is running a version of PHP that is too old for the TablePress plugin to work. TablePress requires PHP %s or newer, where newer versions are recommended."
+msgstr "Je server gebruikt een versie van PHP die te oud is om de TablePress plugin te laten werken. TablePress vereist PHP %s of nieuwer, waarbij nieuwere versies worden aanbevolen."
+
+#: controllers/environment-checks.php:41
+msgid "Please ask your site’s administrator to update WordPress to at least version %1$s!"
+msgstr "Vraag de beheerder van je site om WordPress bij te werken naar minimaal versie %1$s!"
+
+#: controllers/environment-checks.php:39
+msgid "Please <a href=\"%1$s\">update your WordPress installation</a> to at least version %2$s!"
+msgstr "Gelieve <a href=\"%1$s\">update je WordPress installatie</a> naar minstens versie %2$s!"
+
+#: controllers/environment-checks.php:33
+msgid "The installed version of WordPress is too old for the TablePress plugin! TablePress requires an up-to-date version!"
+msgstr "De geïnstalleerde versie van WordPress is te oud voor de TablePress plugin! TablePress heeft een geüpdatete versie nodig!"
+
+#: classes/class-tablepress.php:729
+msgid "Change the default styling of your tables in the visual style customizer."
+msgstr "Wijzig de standaard styling van je tabellen in de visuele stijl customizer."
+
+#: classes/class-tablepress.php:728
+msgid "Default Style Customizer"
+msgstr "Standaard stijl customizer"
+
+#: views/class-all-tables-list-table.php:181
+msgid "Select table “%s”"
+msgstr "Selecteer tabel \"%s\""
+
+#. Description of the plugin
+msgid "Embed beautiful and interactive tables into your WordPress website’s posts and pages, without having to write code!"
+msgstr "Sluit prachtige en interactieve tabellen in je WordPress site's berichten en pagina's, zonder code te hoeven schrijven!"
+
+#: views/view-edit.php:674
+msgid "Screen Options"
+msgstr "Schermopties"
+
+#: views/view-edit.php:674
+msgid "You can change the default cell size for the table editor on this “Edit” screen in the “%s”."
+msgstr "Je kunt de standaard celgrootte voor de tabel editor wijzigen op dit \"Bewerken\" scherm in de \"%s\"."
+
+#: views/view-edit.php:673
+msgid "TablePress feature: Column width and row height of the table editor"
+msgstr "TablePress functie: kolom breedte en rij hoogte van de tabel editor"
+
+#: views/view-edit.php:259
+msgid "Compare the TablePress premium versions"
+msgstr "Vergelijk de TablePress Premium versies"
+
+#: views/view-edit.php:253
+msgid "Read more!"
+msgstr "Lees meer!"
+
+#: views/view-edit.php:251
+msgid "Supercharge your tables with exceptional features:"
+msgstr "Verrijk je tabellen met uitzonderlijke functies:"
+
+#: views/view-edit.php:132
+msgid "%s lines"
+msgstr "%s regels"
+
+#: views/view-edit.php:130
+msgid "Maximum visible lines of text:"
+msgstr "Maximaal zichtbare regels tekst:"
+
+#: views/view-edit.php:127
+msgid "%s pixels"
+msgstr "%s pixels"
+
+#: views/view-edit.php:125
+msgid "Default column width:"
+msgstr "Standaard kolom breedte:"
+
+#: views/view-edit.php:123
+msgid "Please note: These settings only influence the table editor view on this screen, but not the table that the site visitor sees!"
+msgstr "Let op: deze instellingen beïnvloeden alleen de tabel editor weergave op dit scherm, maar niet de tabel die de bezoeker van de site ziet!"
+
+#: views/view-edit.php:122
+msgid "Cells with many lines of text will expand to their full height when they are edited."
+msgstr "Cellen met veel tekstregels zullen bij bewerking tot hun volledige hoogte worden uitgebreid."
+
+#: views/view-edit.php:122
+msgid "Adjust the default size of the table cells in the table editor below."
+msgstr "Pas de standaard grootte van de tabel cellen aan in de onderstaande tabel editor."
+
+#: views/view-edit.php:121
+msgid "Table editor settings"
+msgstr "Instellingen voor de tabel editor"
+
+#: classes/class-tablepress.php:774
+msgid "Order the rows in different ways when a table is shown."
+msgstr "Sorteer de rijen op verschillende manieren wanneer een tabel wordt getoond."
+
+#: classes/class-tablepress.php:773
+msgid "Row Order"
+msgstr "Rij volgorde"
+
+#: classes/class-tablepress.php:765
+msgid "Add CSS classes to rows for highlighting based on their content."
+msgstr "CSS klassen toevoegen aan rijen voor markering op basis van hun inhoud."
+
+#: classes/class-tablepress.php:764
+msgid "Row Highlighting"
+msgstr "Rij markeren"
+
+#: classes/class-tablepress.php:756
+msgid "Show only table rows that contain defined keywords."
+msgstr "Toon alleen tabel rijen die gedefinieerde keywords bevatten."
+
+#: classes/class-tablepress.php:755
+msgid "Row Filtering"
+msgstr "Rij filtering"
+
+#: classes/class-tablepress.php:747
+msgid "Read table data via the WordPress REST API, e.g. in external apps."
+msgstr "Tabel gegevens lezen via de WordPress REST API, bijvoorbeeld in externe apps."
+
+#: classes/class-tablepress.php:746
+msgid "REST API"
+msgstr "REST API"
+
+#: classes/class-tablepress.php:738
+msgid "Make your tables look good on different screen sizes."
+msgstr "Laat je tabellen er goed uitzien op verschillende scherm grootten."
+
+#: classes/class-tablepress.php:737
+msgid "Responsive Tables"
+msgstr "Responsive tabellen"
+
+#: classes/class-tablepress.php:720
+msgid "Process sorting, filtering, and pagination on the server for faster loading of large tables."
+msgstr "Sorteren, filteren en pagineren op de server voor het sneller laden van grote tabellen."
+
+#: classes/class-tablepress.php:719
+msgid "Server-side Processing"
+msgstr "Server side verwerking"
+
+#: classes/class-tablepress.php:711
+msgid "Show panes for filtering the columns."
+msgstr "Toon vensters voor het filteren van de kolommen."
+
+#: classes/class-tablepress.php:710
+msgid "Search Panes"
+msgstr "Zoek vensters"
+
+#: classes/class-tablepress.php:702
+msgid "Highlight found search terms in the table."
+msgstr "Markeer gevonden zoek termen in de tabel."
+
+#: classes/class-tablepress.php:701
+msgid "Search Highlighting"
+msgstr "Zoeken met markering"
+
+#: classes/class-tablepress.php:693
+msgid "Show a search builder interface for filtering from groups and using conditions."
+msgstr "Toon een zoeken bouwer interface voor het filteren uit groepen en het gebruik van voorwaarden."
+
+#: classes/class-tablepress.php:692
+msgid "Custom Search Builder"
+msgstr "Aangepaste zoeken bouwer"
+
+#: classes/class-tablepress.php:684
+msgid "Group table rows by a common keyword, category, or title."
+msgstr "Groepeer tabel rijen op een gemeenschappelijk keyword, categorie of titel."
+
+#: classes/class-tablepress.php:683
+msgid "Row Grouping"
+msgstr "Rij groepering"
+
+#: classes/class-tablepress.php:672
+msgid "Fix the header and footer row and the first and last column when scrolling the table."
+msgstr "Herstel de header en footer rij en de eerste en laatste kolom bij het scrollen van de tabel."
+
+#: classes/class-tablepress.php:671
+msgid "Fixed Rows and Columns"
+msgstr "Vaste rijen en kolommen"
+
+#: classes/class-tablepress.php:663
+msgid "Make the first column an index or counter column with the row position."
+msgstr "Maak van de eerste kolom een index of teller kolom met de rij positie."
+
+#: classes/class-tablepress.php:662
+msgid "Counter Column"
+msgstr "Teller kolom"
+
+#: classes/class-tablepress.php:654
+msgid "Add a search field for each column to the table head or foot row."
+msgstr "Voeg voor elke kolom een zoekveld toe aan de kop of voetregel van de tabel."
+
+#: classes/class-tablepress.php:653
+msgid "Individual Column Filtering"
+msgstr "Individuele kolom filtering"
+
+#: classes/class-tablepress.php:645
+msgid "Add a search dropdown for each column above the table."
+msgstr "Voeg een zoek dropdown toe voor elke kolom boven de tabel."
+
+#: classes/class-tablepress.php:644
+msgid "Column Filter Dropdowns"
+msgstr "Kolom filter dropdowns"
+
+#: classes/class-tablepress.php:636
+msgid "Add buttons for downloading, copying, printing, and changing column visibility of tables."
+msgstr "Knoppen toevoegen voor downloaden, kopiëren, afdrukken en veranderen van kolom zichtbaarheid van tabellen."
+
+#: classes/class-tablepress.php:635
+msgid "Buttons"
+msgstr "Knoppen"
+
+#: classes/class-tablepress.php:627
+msgid "Pre-filter a table when it is shown."
+msgstr "Een tabel voor filteren wanneer deze wordt getoond."
+
+#: classes/class-tablepress.php:626
+msgid "Automatic Filter"
+msgstr "Automatisch filter"
+
+#: classes/class-tablepress.php:618
+msgid "Show Alphabet buttons above the table to filter rows by their first letter."
+msgstr "Toon alfabet knoppen boven de tabel om rijen te filteren op hun eerste letter."
+
+#: classes/class-tablepress.php:617
+msgid "Alphabet Search"
+msgstr "Alfabetisch zoeken"
+
+#: classes/class-tablepress.php:609
+msgid "Load the table data from a JSON array for faster loading."
+msgstr "Laadt de tabel gegevens vanuit een JSON array voor sneller laden."
+
+#: classes/class-tablepress.php:608
+msgid "Advanced Loading"
+msgstr "Geavanceerd laden"
+
+#: classes/class-tablepress.php:600
+msgid "Order the columns in different ways when a table is shown."
+msgstr "Sorteer de kolommen op verschillende manieren wanneer een tabel wordt getoond."
+
+#: classes/class-tablepress.php:599
+msgid "Column Order"
+msgstr "Kolom volgorde"
+
+#: classes/class-tablepress.php:591
+msgid "Add CSS classes to cells for highlighting based on their content."
+msgstr "Voeg CSS klassen toe aan cellen voor markering op basis van hun inhoud."
+
+#: classes/class-tablepress.php:590
+msgid "Cell Highlighting"
+msgstr "Cel markeren"
+
+#: classes/class-tablepress.php:582
+msgid "Export and save tables to files on the server after they were modified."
+msgstr "Tafels exporteren en opslaan in bestanden op de server nadat ze zijn gewijzigd."
+
+#: classes/class-tablepress.php:581
+msgid "Automatic Table Export"
+msgstr "Automatische tabel export"
+
+#: classes/class-tablepress.php:573
+msgid "Periodically update tables from a configured import source."
+msgstr "Periodiek tabellen updaten vanuit een geconfigureerde import bron."
+
+#: classes/class-tablepress.php:572 views/view-import.php:61
+#: views/view-import.php:148
+msgid "Automatic Periodic Table Import"
+msgstr "Automatische import van periodiek systeem"
+
+#: classes/class-tablepress.php:564
+msgid "Restrict access to individual tables for individual users."
+msgstr "Beperk de toegang tot individuele tabellen voor individuele gebruikers."
+
+#: classes/class-tablepress.php:563
+msgid "Advanced Access Rights"
+msgstr "Geavanceerde toegangsrechten"
+
+#: views/view-editor_button_thickbox.php:122
+msgid "Click the “%1$s” button for the desired table to automatically insert its Shortcode into the editor."
+msgstr "Klik op de knop \"%1$s\" voor de gewenste tabel om automatisch de shortcode in de editor in te voegen."
+
+#: controllers/controller-admin.php:308 controllers/controller-admin.php:309
+msgid "Insert a TablePress table"
+msgstr "Een TablePress tabel invoegen"
+
+#: controllers/controller-admin.php:307
+msgid "Table"
+msgstr "Tabel"
+
+#: views/view-edit.php:354 admin/js/build/edit.js:1
+#: admin/js/edit/contextmenu.js:237
+msgctxt "keyboard shortcut for Move right"
+msgid "%1$s⇧→"
+msgstr "%1$s⇧→"
+
+#: views/view-edit.php:353 admin/js/build/edit.js:1
+#: admin/js/edit/contextmenu.js:231
+msgctxt "keyboard shortcut for Move left"
+msgid "%1$s⇧←"
+msgstr "%1$s⇧←"
+
+#: views/view-edit.php:349 admin/js/build/edit.js:1
+#: admin/js/edit/contextmenu.js:225
+msgctxt "keyboard shortcut for Move down"
+msgid "%1$s⇧↓"
+msgstr "%1$s⇧↓"
+
+#: views/view-edit.php:348 admin/js/build/edit.js:1
+#: admin/js/edit/contextmenu.js:219
+msgctxt "keyboard shortcut for Move up"
+msgid "%1$s⇧↑"
+msgstr "%1$s⇧↑"
+
+#: views/view-edit.php:323 admin/js/build/edit.js:1
+#: admin/js/edit/contextmenu.js:137
+msgctxt "keyboard shortcut for Advanced Editor"
+msgid "%1$sE"
+msgstr "%1$sE"
+
+#: views/view-edit.php:322 admin/js/build/edit.js:1
+#: admin/js/edit/contextmenu.js:132
+msgctxt "keyboard shortcut for Insert Image"
+msgid "%1$sI"
+msgstr "%1$sI"
+
+#: views/view-edit.php:321 admin/js/build/edit.js:1
+#: admin/js/edit/contextmenu.js:127
+msgctxt "keyboard shortcut for Insert Link"
+msgid "%1$sL"
+msgstr "%1$sL"
+
+#: blocks/table/block.json
+msgctxt "block keyword"
+msgid "table"
+msgstr "tabel"
+
+#: blocks/table/block.json
+msgctxt "block description"
+msgid "Embed a TablePress table."
+msgstr "TablePress tabel insluiten."
+
+#: blocks/table/block.json
+msgctxt "block title"
+msgid "TablePress table"
+msgstr "TablePress tabel"
+
+#: views/view-list.php:85
+msgid "To find out more about what’s new, please read the <a href=\"%s\"><strong>release announcement</strong></a>."
+msgstr "Lees de <a href=\"%s\"><strong>release aankondiging</strong></a> voor meer informatie over wat er nieuw is."
+
+#: views/view-edit.php:242 views/view-list.php:79
+msgid "TablePress has more to offer!"
+msgstr "TablePress heeft meer te bieden!"
+
+#: views/view-list.php:76
+msgid "Tell me more about the Premium features"
+msgstr "Vertel me meer over de Premium functies"
+
+#: views/view-list.php:70
+msgid "It looks like you haven’t added a table yet. If you need help to get started, please find more information in the FAQ and Documentation on the <a href=\"%s\">TablePress website</a>."
+msgstr "Het lijkt erop dat je nog geen tabel hebt toegevoegd. Als je hulp nodig hebt om aan de slag te gaan, vind je meer informatie in de FAQ en documentatie op de <a href=\"%s\">TablePress site</a>."
+
+#: views/view-list.php:68
+msgid "I hope that everything works and that you are satisfied with the results of managing your %s table."
+msgid_plural "I hope that everything works and that you are satisfied with the results of managing your %s tables."
+msgstr[0] "Ik hoop dat alles werkt en dat je tevreden bent met de resultaten van het beheren van je %s tabel."
+msgstr[1] "Ik hoop dat alles werkt en dat je tevreden bent met de resultaten van het beheren van je %s tabellen."
+
+#: views/view-list.php:66
+msgid "Thank you for using it!"
+msgstr "Bedankt voor het gebruik ervan!"
+
+#: views/view-list.php:49
+msgid "Thank you for choosing TablePress, the most popular table plugin for WordPress!"
+msgstr "Bedankt voor het kiezen van TablePress, de populairste tabel plugin voor WordPress!"
+
+#: views/view-import.php:161
+msgid "The import of tables is now even more powerful! You can simply drag and drop your files into this area and TablePress will automatically detect the file format!"
+msgstr "De import van tabellen is nu nog krachtiger! Je kunt eenvoudig je bestanden naar dit gebied verslepen en neerzetten en TablePress zal automatisch het bestand format detecteren!"
+
+#: views/view-import.php:160
+msgid "TablePress feature: Drag and Drop Import with Format Detection"
+msgstr "TablePress functie: importeren verslepen en neerzetten met format detectie"
+
+#: views/view-import.php:75
+msgid "TablePress can import tables from common spreadsheet applications, like XLSX files from Excel, or CSV, ODS, HTML, and JSON files."
+msgstr "TablePress kan tabellen importeren van veelgebruikte spreadsheet toepassingen, zoals XLSX bestanden in Excel of CSV, ODS, HTML en JSON bestanden."
+
+#: views/view-edit.php:655
+msgid "Right-clicking the table content fields will open a context menu for quick access to common editing tools."
+msgstr "Als je met de rechter muisknop op de inhoudsvelden van de tabel klikt, wordt een context menu geopend voor snelle toegang tot algemene bewerking gereedschappen."
+
+#: views/view-edit.php:655 views/view-edit.php:674 views/view-import.php:161
+#: views/view-options.php:96
+msgid "Did you know?"
+msgstr "Wist je dat?"
+
+#: views/view-edit.php:654
+msgid "TablePress feature: Context menu"
+msgstr "TablePress functie: context menu"
+
+#: classes/class-view.php:461
+msgid "For help, please follow <a href=\"https://www.enable-javascript.com/\">the instructions on how to enable JavaScript in your browser</a>."
+msgstr "Volg voor hulp <a href=\"https://www.enable-javascript.com/\">de instructies voor het inschakelen van JavaScript in je browser</a>."
+
+#: classes/class-view.php:460
+msgid "This screen requires JavaScript. Please enable JavaScript in your browser settings."
+msgstr "Dit scherm vereist JavaScript. Schakel JavaScript in je browserinstellingen in."
+
+#: classes/class-view.php:457 controllers/environment-checks.php:30
+#: controllers/environment-checks.php:69
+msgid "Attention: Unfortunately, there is a problem!"
+msgstr "Let op: helaas is er een probleem!"
+
+#: views/view-edit.php:550
+msgid "Offer the following functions for site visitors with this table:"
+msgstr "Bied de volgende functies voor site bezoekers met deze tabel:"
+
+#: views/view-edit.php:549 admin/js/build/edit.js:1 admin/js/edit.js:314
+msgid "Enable Visitor Features"
+msgstr "Bezoeker functies inschakelen"
+
+#: views/view-edit.php:526
+msgctxt "position (above or below)"
+msgid "Show the table description %s the table."
+msgstr "Toon de tabel beschrijving %s de tabel."
+
+#: views/view-edit.php:516
+msgctxt "position (above or below)"
+msgid "Show the table name %s the table."
+msgstr "Toon de tabel naam %s de tabel."
+
+#: views/view-edit.php:475
+msgid "Be aware that the Table Features for Site Visitors, like sorting, filtering, and pagination, will not work on tables which have combined cells."
+msgstr "Houd er rekening mee dat de tabel functies voor site bezoekers, zoals sorteren, filteren en paginering, niet werken op tabellen met gecombineerde cellen."
+
+#: views/view-edit.php:474
+msgid "The corresponding keywords, <code>#colspan#</code> and <code>#rowspan#</code>, will then be added for you."
+msgstr "De bijbehorende keywords, <code>#colspan#</code> en <code>#rowspan#</code>, worden dan toegevoegd voor je."
+
+#: views/view-edit.php:473
+msgid "To combine adjacent cells, select the desired cells and click the “%s” button or use the context menu."
+msgstr "Als je aangrenzende cellen wil combineren, selecteer je de gewenste cellen en klik je op de knop \"%s\" of gebruik je het contextmenu."
+
+#: views/view-edit.php:399 views/view-options.php:209
+msgctxt "keyboard shortcut for Save Changes"
+msgid "%1$sS"
+msgstr "%1$sS"
+
+#: views/view-edit.php:396
+msgctxt "keyboard shortcut for Preview"
+msgid "%1$sP"
+msgstr "%1$sP"
+
+#: views/view-edit.php:354
+msgid "Move right"
+msgstr "Verplaats naar rechts"
+
+#: views/view-edit.php:353
+msgid "Move left"
+msgstr "Verplaats naar links"
+
+#: views/view-edit.php:349
+msgid "Move down"
+msgstr "Verplaats omlaag"
+
+#: views/view-edit.php:348
+msgid "Move up"
+msgstr "Verplaats omhoog"
+
+#: views/view-edit.php:327 views/view-edit.php:473
+msgid "Combine/Merge"
+msgstr "Combineren/samenvoegen"
+
+#: views/view-edit.php:320 views/view-edit.php:326
+msgid "Selected cells"
+msgstr "Geselecteerde cellen"
+
+#: views/view-edit.php:82 admin/js/build/edit.js:1 admin/js/edit.js:314
+msgid "Table Features for Site Visitors"
+msgstr "Tabel functies voor site bezoekers"
+
+#: views/view-about.php:189
+msgid "Community Support for users of the Free version"
+msgstr "Community ondersteuning voor gebruikers van de gratis versie"
+
+#: views/view-about.php:187
+msgid "<a href=\"%s\">Find out more!</a>"
+msgstr "<a href=\"%s\">Lees meer!</a>"
+
+#: views/view-about.php:186
+msgid "Users with a valid TablePress Premium license plan are eligible for Priority Email Support, directly from the plugin developer!"
+msgstr "Gebruikers met een geldig TablePress Premium licentie abonnement komen in aanmerking voor prioriteit e-mail ondersteuning, rechtstreeks van de ontwikkelaar van de plugin!"
+
+#: views/view-about.php:184
+msgid "Premium Support"
+msgstr "Premium ondersteuning"
+
+#: views/view-about.php:167 views/view-list.php:74
+msgid "The available Pro and Max plans offer user support and many exciting and helpful features for your tables."
+msgstr "De beschikbare pro- en max abonnementen bieden gebruikers ondersteuning en veel spannende en nuttige functies voor je tabellen."
+
+#: views/view-about.php:166 views/view-list.php:73
+msgid "I would like to invite you to check out the <a href=\"%s\">Premium versions of TablePress</a>."
+msgstr "Ik wil je graag uitnodigen om de <a href=\"%s\">Premium versies van TablePress</a> te bekijken."
+
+#: views/view-about.php:84
+msgid "You can embed the tables into posts, pages, or other site areas using a block in the block editor."
+msgstr "Je kunt de tabellen insluiten in berichten, pagina's of andere site gebieden met behulp van een blok in de blok-editor."
+
+#: views/class-all-tables-list-table.php:491
+#: views/class-editor-button-thickbox-list-table.php:243
+msgid "%s table"
+msgid_plural "%s tables"
+msgstr[0] "%s tabel"
+msgstr[1] "%s tabellen"
+
+#: views/class-all-tables-list-table.php:243 admin/js/build/edit.js:1
+#: admin/js/edit.js:720
+msgid "Preview of table “%1$s” (ID %2$s)"
+msgstr "Voorbeeld van tabel \"%1$s\" (ID %2$s)"
+
+#: controllers/controller-admin_ajax.php:289 views/view-about.php:114
+#: views/view-edit.php:643 views/view-list.php:194
+#: views/view-preview_table.php:70
+msgid "To insert a table into a post or page, paste its Shortcode at the desired place in the editor."
+msgstr "Als je een tabel in een bericht of pagina wil invoegen, plak je de shortcode op de gewenste plaats in de editor."
+
+#: controllers/controller-admin_ajax.php:287 views/view-about.php:112
+#: views/view-edit.php:641 views/view-list.php:192
+#: views/view-preview_table.php:68 blocks/table/build/index.js:1
+#: blocks/table/src/edit.js:92
+msgid "TablePress table"
+msgstr "TablePress tabel"
+
+#: controllers/controller-admin_ajax.php:287 views/view-about.php:112
+#: views/view-edit.php:641 views/view-list.php:192
+#: views/view-preview_table.php:68
+msgid "To insert a table into a post or page, add a “%1$s” block in the block editor and select the desired table."
+msgstr "Als je een tabel in een bericht of pagina wil invoegen, voeg je een blok '%1$s' toe in de blok-editor en selecteert je de gewenste tabel."
+
+#: controllers/controller-admin_ajax.php:284 views/view-preview_table.php:64
+msgid "The Table Features for Site Visitors, like sorting, filtering, and pagination, are also not available in this preview!"
+msgstr "De tabel functies voor site bezoekers, zoals sorteren, filteren en paginering, zijn ook niet beschikbaar in dit voorbeeld!"
+
+#: controllers/controller-admin.php:414
+msgid "Go Premium"
+msgstr "Ga voor Premium!"
+
+#: controllers/controller-admin.php:414
+msgid "Check out the Premium version of TablePress!"
+msgstr "Bekijk de Premium versie van TablePress!"
+
+#: classes/class-view.php:417
+msgid "Upgrade to Premium"
+msgstr "Upgrade naar Premium"
+
+#: classes/class-view.php:413
+msgid "TablePress plugin logo"
+msgstr "TablePress plugin logo"
+
+#: classes/class-view.php:220
+msgid "Error code: %s"
+msgstr "Foutcode: %s"
+
+#: classes/class-view.php:111 views/view-list.php:53
+msgid "More great features for you and your site’s visitors and priority email support are available with a Premium license plan of TablePress. <a href=\"%s\">Go check them out!</a>"
+msgstr "Meer geweldige functies voor de bezoekers van je en je site en prioritaire e-mail ondersteuning zijn beschikbaar met een Premium licentie abonnement vanTablePress. <a href=\"%s\">Ga ze eens bekijken!</a>"
+
+#: classes/class-view.php:103 views/view-about.php:142
+msgid "Common questions are answered in the <a href=\"%s\">FAQ</a>."
+msgstr "Veelgestelde vragen worden beantwoord in de <a href=\"%s\">FAQ</a>."
+
+#: classes/class-admin-page-helper.php:118
+msgid "Take a look at the <a href=\"%s\">Premium features</a>!"
+msgstr "Bekijk de <a href=\"%s\">Premium functies</a>!"
+
+#: views/view-edit.php:530
+msgid "This field can only contain letters, numbers, spaces, hyphens (-), underscores (_), and colons (:)."
+msgstr "Dit veld mag alleen letters, cijfers, spaties, koppeltekens (-), onderstrepingstekens (_) en dubbele punten (:) bevatten."
+
+#: views/view-edit.php:637
+msgid "To edit the content or modify the structure of this table, use the input fields and buttons below."
+msgstr "Gebruik de onderstaande invoervelden en knoppen om de inhoud te bewerken of de structuur van deze tabel te wijzigen."
+
+#: controllers/controller-admin.php:438 controllers/controller-admin.php:523
+#: controllers/controller-admin.php:784 controllers/controller-admin.php:840
+#: controllers/controller-admin.php:912 controllers/controller-admin.php:953
+#: controllers/controller-admin.php:1078 controllers/controller-admin.php:1167
+#: controllers/controller-admin.php:1194 controllers/controller-admin.php:1235
+#: controllers/controller-admin.php:1274 controllers/controller-admin.php:1326
+#: controllers/controller-admin.php:1352
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Je hebt geen toestemming om deze pagina te bekijken."
+
+#: views/view-edit.php:610
+msgid "The following error was registered: %s."
+msgstr "De volgende fout werd geregistreerd: %s."
+
+#: views/view-edit.php:583
+msgid "Additional parameters from the <a href=\"%s\">DataTables documentation</a> to be added to the JS call."
+msgstr "Extra parameters van de <a href=\"%s\">DataTables-documentatie</a>, toe te voegen aan de JS-call."
+
+#: classes/class-tablepress.php:399
+msgid "unknown"
+msgstr "onbekend"
+
+#: classes/class-admin-page-helper.php:116
+msgid "Thank you for using <a href=\"%s\">TablePress</a>."
+msgstr "Dank voor het gebruik van <a href=\"%s\">TablePress</a>."
+
+#: views/view-about.php:251
+msgid "the translators in the <a href=\"%s\">Plugin Directory</a>,"
+msgstr "de vertalers in de <a href=\"%s\">plugin directory</a>,"
+
+#: views/view-about.php:250
+msgid "Allan Jardine for <a href=\"%s\">DataTables</a>,"
+msgstr "Allan Jardine voor <a href=\"%s\">DataTables</a>,"
+
+#. Author of the plugin
+msgid "Tobias Bäthge"
+msgstr "Tobias Bäthge"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://tablepress.org/"
+msgstr "https://tablepress.org/"
+
+#: views/view-options_custom_css.php:150
+msgid "Proceed without saving &#8220;Custom CSS&#8221; to a file"
+msgstr "Doorgaan zonder de &#8220;aangepaste CSS&#8221; op te slaan in een bestand"
+
+#: views/view-options_custom_css.php:148
+msgid "Your &#8220;Custom CSS&#8221; will then be loaded inline."
+msgstr "Je &#8220;aangepaste CSS&#8221; wordt dan inline geladen."
+
+#: views/view-options_custom_css.php:147
+msgid "To proceed without trying to save the &#8220;Custom CSS&#8221; to a file, click the button below."
+msgstr "Om door te gaan zonder te proberen de &#8220;aangepaste CSS&#8221; in een bestand op te slaan, klik je op de onderstaande knop."
+
+#: views/view-options_custom_css.php:145
+msgid "Proceed without saving a file"
+msgstr "Doorgaan zonder op te slaan in een bestand"
+
+#: views/view-options_custom_css.php:118
+msgid "Connection Information"
+msgstr "Verbindingsinformatie"
+
+#: views/view-options_custom_css.php:118
+msgid "To try again with the same method that you use for updating plugins or themes, please fill out the &#8220;%s&#8221; form below."
+msgstr "Om het opnieuw te proberen met dezelfde methode die je gebruikt voor het updaten van plugins of thema's, vul dan het onderstaande formulier &#8220;%s&#8221; in."
+
+#: views/view-options_custom_css.php:117
+msgid "Due to the configuration of your server, TablePress was not able to automatically save your &#8220;Custom CSS&#8221; to a file."
+msgstr "Door de configuratie van je server kon TablePress je &#8220;aangepaste CSS&#8221; niet automatisch opslaan in een bestand."
+
+#: views/view-options_custom_css.php:43
+msgid "Attention: Further action is required to save the changes to your &#8220;Custom CSS&#8221;!"
+msgstr "Let op: verdere actie is vereist om de wijzigingen op te slaan in je &#8220;aangepaste CSS &#8221;!"
+
+#: views/view-options.php:230
+msgid "Be very careful with this and only click the button if you know what you are doing!"
+msgstr "Wees erg voorzichtig hiermee en klik alleen op de knop als je weet wat je doet!"
+
+#: views/view-options.php:229
+msgid "You will manually need to remove the plugin&#8217;s files from the plugin folder afterwards."
+msgstr "Je dient achteraf de plugin bestanden handmatig te verwijderen uit de plugin map."
+
+#: views/view-options.php:228
+msgid "It is recommended that you create a backup of the tables (by exporting the tables in the JSON format), in case you later change your mind."
+msgstr "Het is aan te bevelen een back-up van de tabellen te maken (door ze te exporteren in JSON format) voor het geval je later van gedachte verandert."
+
+#: views/view-options.php:227
+msgid "Uninstalling <strong>will permanently delete</strong> all TablePress tables and options from the database."
+msgstr "Deïnstalleren zal ook <strong>permanent</strong> alle TablePress-tabellen en -opties uit de database verwijderen."
+
+#: views/view-options.php:191
+msgid "TablePress shall be shown in this section of my admin menu: %s"
+msgstr "TablePress wordt weergegeven in deze sectie van mijn beheer menu: %s"
+
+#: views/view-options.php:190
+msgid "Admin menu entry"
+msgstr "Beheerdersmenu-positie"
+
+#: views/view-options.php:180
+msgid "Top-Level (bottom)"
+msgstr "Top-niveau (onder)"
+
+#: views/view-options.php:179
+msgid "Top-Level (middle)"
+msgstr "Top-niveau (midden)"
+
+#: views/view-options.php:178
+msgid "Top-Level (top)"
+msgstr "Top-niveau (boven)"
+
+#: views/view-options.php:142
+msgid "Please note that invalid CSS code will be stripped, if it can not be corrected automatically."
+msgstr "Let op: ongeldige CSS-code zal worden verwijderd als hij niet automatisch gecorrigeerd kan worden."
+
+#: views/view-options.php:140
+msgid "Information on available CSS selectors can be found in the <a href=\"%s\">Documentation</a>."
+msgstr "Informatie over beschikbare CSS selectoren is te vinden in de <a href=\"%s\">documentatie</a>."
+
+#: views/view-options.php:138
+msgid "You can get styling examples from the <a href=\"%s\">FAQ</a>."
+msgstr "Je kan stijlvoorbeelden vinden in de <a href=\"%s\">FAQ</a>."
+
+#: views/view-options.php:136
+msgid "&#8220;Custom CSS&#8221; (<a href=\"%s\">Cascading Style Sheets</a>) can be used to change the styling or layout of a table."
+msgstr "&#8220;Aangepast CSS&#8221; (<a href=\"%s\">Cascading Style Sheets</a>) kan gebruikt worden om de opmaak en lay-out van een tabel aan te passen."
+
+#: views/view-options.php:127
+msgid "Load this &#8220;Custom CSS&#8221; code to change the table styling:"
+msgstr "Laad deze &#8220;aangepaste CSS&#8221;code om de tabelstijl te veranderen:"
+
+#: views/view-options.php:126
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: views/view-options.php:77
+msgid "TablePress has some options which affect the plugin&#8217;s behavior in different areas."
+msgstr "TablePress heeft verschillende opties die invloed hebben op het gedrag van de plugin op verschillende gebieden."
+
+#: views/view-options.php:59
+msgid "User Options"
+msgstr "Gebruikersopties"
+
+#: views/view-options.php:43
+msgid "Error: Options could not be saved."
+msgstr "Fout: opties konden niet worden opgeslagen."
+
+#: views/view-options.php:42
+msgid "Options saved successfully, but &#8220;Custom CSS&#8221; was not saved to file."
+msgstr "Opties zijn succesvol opgeslagen, maar &#8220;aangepaste CSS&#8221; is niet opgeslagen in een bestand."
+
+#: views/view-options.php:41
+msgid "Options saved successfully."
+msgstr "Opties succesvol opgeslagen."
+
+#: views/class-all-tables-list-table.php:438
+msgid "You should <a href=\"%s\">import</a> a table to get started!"
+msgstr "Je moet een tabel <a href=\"%s\">importeren</a> om te beginnen!"
+
+#: views/class-all-tables-list-table.php:436
+msgid "You should <a href=\"%s\">add</a> a table to get started!"
+msgstr "Je moet een tabel <a href=\"%s\">toevoegen</a> om te beginnen!"
+
+#: views/class-all-tables-list-table.php:414
+msgid "Apply"
+msgstr "Toepassen"
+
+#: views/class-all-tables-list-table.php:409
+msgid "Bulk Actions"
+msgstr "Bulkacties"
+
+#: views/class-all-tables-list-table.php:407
+msgid "Select Bulk Action"
+msgstr "Selecteer bulk actie"
+
+#: views/class-all-tables-list-table.php:371
+msgctxt "bulk action"
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: views/class-all-tables-list-table.php:368
+msgctxt "bulk action"
+msgid "Export"
+msgstr "Export"
+
+#: views/class-all-tables-list-table.php:365
+msgctxt "bulk action"
+msgid "Copy"
+msgstr "Kopieer"
+
+#: views/class-all-tables-list-table.php:240
+msgid "Delete &#8220;%s&#8221;"
+msgstr "Verwijder &#8220;%s&#8221;"
+
+#: views/class-all-tables-list-table.php:237
+msgctxt "row action"
+msgid "Export"
+msgstr "Export"
+
+#: views/class-all-tables-list-table.php:237
+msgid "Export &#8220;%s&#8221;"
+msgstr "Exporteer &#8220;%s&#8221;"
+
+#: views/class-all-tables-list-table.php:234 admin/js/build/edit.js:1
+#: admin/js/edit/contextmenu.js:84
+msgid "Copy"
+msgstr "Kopieer"
+
+#: views/class-all-tables-list-table.php:234
+msgid "Copy &#8220;%s&#8221;"
+msgstr "Kopieer &#8220;%s&#8221;"
+
+#: views/class-all-tables-list-table.php:232
+msgid "Show Shortcode"
+msgstr "Toon de shortcode"
+
+#: views/class-all-tables-list-table.php:223
+#: views/class-all-tables-list-table.php:230
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Bewerk &#8220;%s&#8221;"
+
+#: views/class-all-tables-list-table.php:108
+msgid "Last Modified By"
+msgstr "Laatst gewijzigd door"
+
+#: views/class-all-tables-list-table.php:107
+msgid "Author"
+msgstr "Auteur"
+
+#: controllers/controller-admin_ajax.php:290 views/view-about.php:116
+#: views/view-list.php:196 views/view-preview_table.php:72
+msgid "Each table has a unique ID that needs to be adjusted in that Shortcode."
+msgstr "Elke tabel heeft een unieke ID die in die shortcode moet worden aangepast."
+
+#: views/view-editor_button_thickbox.php:121 views/view-list.php:188
+msgid "This is a list of your tables."
+msgstr "Dit is een lijst met de tabellen."
+
+#: views/view-list.php:117
+msgid "Tables"
+msgstr "Tabellen"
+
+#: views/view-list.php:111
+msgid "The tables were imported successfully."
+msgstr "De tabellen zijn met succes geïmporteerd."
+
+#: views/view-list.php:110
+msgid "Notice: Not all selected tables could be copied!"
+msgstr "Attentie: niet alle geselecteerde tabellen konden gekopieerd worden!"
+
+#: views/view-list.php:109
+msgid "Notice: Not all selected tables could be deleted!"
+msgstr "Attentie: niet alle geselecteerde tabellen konden verwijderd worden!"
+
+#: views/view-list.php:108
+msgid "Error: You did not select any tables!"
+msgstr "Fout: je hebt geen enkele tabel geselecteerd!"
+
+#: views/view-list.php:107
+msgid "Error: This bulk action is invalid!"
+msgstr "Fout: deze bulk actie is ongeldig!"
+
+#: views/view-list.php:105
+msgid "Error: You did not specify a valid table ID."
+msgstr "Fout: je hebt geen geldig tabel ID opgegeven."
+
+#: views/view-list.php:104
+msgid "Error: The table could not be copied."
+msgstr "Fout: de tabel kon niet gekopieerd worden."
+
+#: views/view-list.php:102
+msgid "The copied table has the table ID &#8220;%s&#8221;."
+msgstr "De gekopieerde tabel heeft de tabel ID &#8220;%s&#8221;."
+
+#: views/view-list.php:99 views/view-list.php:100
+msgid "The table was deleted successfully."
+msgid_plural "The tables were deleted successfully."
+msgstr[0] "De tabel is met succes verwijderd."
+msgstr[1] "De tabellen zijn met succes verwijderd."
+
+#: views/view-list.php:93
+msgid "Thank you for updating to TablePress %s!"
+msgstr "Bedankt voor het updaten naar TablePress %s!"
+
+#: views/view-list.php:75
+msgid "Sincerely, Tobias"
+msgstr "Met vriendelijke groet, Tobias"
+
+#: views/view-list.php:65
+msgid "Hi, my name is Tobias, I&#8217;m the developer of the TablePress plugin."
+msgstr "Hallo, mijn naam is Tobias; ik ben de ontwikkelaar van de TablePress-plugin."
+
+#: views/view-list.php:64
+msgid "Tobias Bäthge, developer of TablePress"
+msgstr "Tobias Bäthge, ontwikkelaar van TablePress"
+
+#: views/view-list.php:56 views/view-list.php:77 views/view-list.php:91
+msgid "Hide this message"
+msgstr "Verberg dit bericht"
+
+#: views/view-list.php:50
+msgid "If you encounter any questions or problems, please visit the <a href=\"%1$s\">FAQ</a>, the <a href=\"%2$s\">Documentation</a>, and the <a href=\"%3$s\">Support</a> section on the <a href=\"%4$s\">plugin website</a>."
+msgstr "Als je nog vragen of problemen hebt, ga dan naar de <a href=\"%1$s\">FAQ</a>, de <a href=\"%2$s\">documentatie</a>, en de <a href=\"%3$s\">ondersteuning</a> sectie op de <a href=\"%4$s\">plugin site</a>."
+
+#: views/view-list.php:58
+msgid "Welcome!"
+msgstr "Welkom!"
+
+#: views/view-import.php:79
+msgid "You can also choose to import it as a new table, to replace an existing table, or to append the rows to an existing table."
+msgstr "Je kunt er ook voor kiezen om deze als een nieuwe tabel te importeren, een bestaande tabel te vervangen of de rijen aan een bestaande tabel toe te voegen."
+
+#: views/view-import.php:78
+msgid "To import tables, select and enter the import source in the following form."
+msgstr "Om een tabel te importeren selecteer je en geef je het import bronbestand in het volgende formulier op."
+
+#: views/view-import.php:58
+msgid "Import Tables"
+msgstr "Tabellen importeren"
+
+#: views/view-import.php:54
+msgid "Error: The import failed."
+msgstr "Fout: het importeren is mislukt."
+
+#: views/class-all-tables-list-table.php:434 views/view-export.php:93
+msgid "You should <a href=\"%1$s\">add</a> or <a href=\"%2$s\">import</a> a table to get started!"
+msgstr "Je dient een tabel <a href=\"%1$s\">toe te voegen</a> of <a href=\"%2$s\">te importeren</a> om te beginnen!"
+
+#: views/view-export.php:75
+msgid "For the JSON format, the table data and the table options are exported."
+msgstr "Bij het JSON format worden zowel tabelgegevens als tabelopties geëxporteerd."
+
+#: views/view-export.php:74
+msgid "Be aware that for the CSV and HTML formats only the table data, but no table options are exported!"
+msgstr "Wees je zich ervan bewust dat bij CSV en HTML formaten alleen tabelgegevens, maar geen tabelopties worden geëxporteerd!"
+
+#: views/view-export.php:72
+msgid "If you choose more than one table, the exported files will automatically be stored in a ZIP archive file."
+msgstr "Indien je meer dan één tabel kiest zullen de exportbestanden automatisch opgeslagen worden in een ZIP archiefbestand."
+
+#: views/view-export.php:71
+msgid "To export, select the tables and the desired export format."
+msgstr "Om te exporteren selecteer je de tabellen en het gewenste exportformaat."
+
+#: views/view-export.php:68
+msgid "Regularly exporting tables is also recommended as a backup of your data."
+msgstr "Regelmatig exporteren van tabellen is ook aanbevolen als back-up van je gegevens."
+
+#: views/view-export.php:67
+msgid "Exporting a table allows you to use it in other programs, like spreadsheets applications."
+msgstr "Een tabel exporteren stelt je in staat deze te gebruiken in andere programma's, zoals spreadsheet applicaties."
+
+#: views/view-export.php:49 views/view-export.php:52
+msgid "Export Tables"
+msgstr "Tabellen exporteren"
+
+#: views/view-export.php:44
+msgid "Error: The ZIP file could not be created."
+msgstr "Fout: het ZIP bestand kon niet aangemaakt worden."
+
+#: views/view-export.php:43
+msgid "Error: The internal data of this table is corrupted!"
+msgstr "Fout: de interne gegevens van deze tabel zijn corrupt!"
+
+#: views/view-export.php:42 views/view-list.php:106
+msgid "Error: This table could not be loaded!"
+msgstr "Fout: de tabel kon niet geladen worden!"
+
+#: views/view-export.php:41
+msgid "Error: The export failed."
+msgstr "Fout: het exporteren is mislukt."
+
+#: views/class-editor-button-thickbox-list-table.php:192
+msgid "You should add or import a table on the TablePress screens to get started!"
+msgstr "Je dient een tabel toe te voegen of te importeren in de TablePress schermen om te kunnen beginnen!"
+
+#: views/class-all-tables-list-table.php:425
+#: views/class-editor-button-thickbox-list-table.php:190
+#: views/view-export.php:92
+msgid "No tables found."
+msgstr "Geen tabellen gevonden."
+
+#: views/class-all-tables-list-table.php:259
+#: views/class-editor-button-thickbox-list-table.php:166
+msgid "(no description)"
+msgstr "(geen beschrijving)"
+
+#: views/class-editor-button-thickbox-list-table.php:88
+msgid "Action"
+msgstr "Actie"
+
+#: views/class-all-tables-list-table.php:104
+#: views/class-editor-button-thickbox-list-table.php:85
+msgid "ID"
+msgstr "ID"
+
+#: views/view-editor_button_thickbox.php:132 views/view-list.php:219
+msgid "Search Tables"
+msgstr "Doorzoek tabellen"
+
+#: views/view-editor_button_thickbox.php:125 views/view-list.php:211
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Zoek resultaten voor &#8220;%s&#8221;"
+
+#: views/class-editor-button-thickbox-list-table.php:180
+#: views/view-editor_button_thickbox.php:122
+msgid "Insert Shortcode"
+msgstr "Shortcode invoegen"
+
+#: views/view-editor_button_thickbox.php:121
+msgid "You may insert a table into a post or page here."
+msgstr "Je kunt hier een tabel invoegen in een bericht of pagina."
+
+#: views/view-editor_button_thickbox.php:74
+#: views/view-editor_button_thickbox.php:119
+msgid "List of Tables"
+msgstr "Lijst met tabellen"
+
+#: classes/class-view.php:464 views/view-edit.php:621
+msgid "Back to the List of Tables"
+msgstr "Terug naar lijst van tabellen"
+
+#: views/view-edit.php:617
+msgid "Please see the <a href=\"%s\">TablePress FAQ page</a> for further instructions."
+msgstr "Lees de <a href=\"%s\">TablePress FAQ pagina</a> voor meer informatie."
+
+#: views/view-edit.php:615
+msgid "Because of this error, the table can not be edited at this time, to prevent possible further data loss."
+msgstr "Vanwege deze fout, kan de tabel op dit moment niet bewerkt worden, zodat mogelijk verder gegevensverlies voorkomen wordt."
+
+#: views/view-edit.php:608
+msgid "The internal data of table &#8220;%1$s&#8221; (ID %2$s) is corrupted."
+msgstr "De interne gegevens van tabel &#8220;%1$s&#8221 (ID %2$s) zijn corrupt."
+
+#: views/view-edit.php:604 admin/js/build/edit.js:1 admin/js/edit.js:827
+#: admin/js/edit.js:985
+msgid "Attention: Unfortunately, an error occurred."
+msgstr "Let op: helaas is er een fout opgetreden."
+
+#: views/view-edit.php:583
+msgid "For advanced use only."
+msgstr "Alleen voor geavanceerd gebruik."
+
+#: views/view-edit.php:582
+msgid "Custom Commands"
+msgstr "Aangepaste opdrachten"
+
+#: views/view-edit.php:575
+msgid "Enable horizontal scrolling, to make viewing tables with many columns easier."
+msgstr "Horizontaal scrollen inschakelen, zodat het bekijken van tabellen met veel kolommen makkelijker wordt."
+
+#: views/view-edit.php:574
+msgid "Horizontal Scrolling"
+msgstr "Horizontaal scrollen"
+
+#: views/view-edit.php:571
+msgid "Enable the table information display, with information about the currently visible data, like the number of rows."
+msgstr "Schakel het weergeven van de tabelinformatie in, met informatie over de momenteel zichtbare gegevens, zoals het aantal rijen."
+
+#: views/view-edit.php:570
+msgid "Info"
+msgstr "Info"
+
+#: views/view-edit.php:567
+msgid "Allow the visitor to change the number of rows shown when using pagination."
+msgstr "Wijzigen van aantal rijen per pagina door de bezoeker toestaan."
+
+#: views/view-edit.php:566
+msgid "Pagination Length Change"
+msgstr "Aanpassing paginering lengte"
+
+#: views/view-edit.php:563
+msgid "Show %s rows per page."
+msgstr "Toon %s rijen per pagina."
+
+#: views/view-edit.php:562
+msgid "Enable pagination of the table (viewing only a certain number of rows at a time) by the visitor."
+msgstr "Schakel paginering van de tabel in (het bekijken van slechts een bepaald aantal rijen tegelijk) door de bezoeker."
+
+#: views/view-edit.php:561
+msgid "Pagination"
+msgstr "Paginering"
+
+#: views/view-edit.php:558
+msgid "Enable the visitor to filter or search the table. Only rows with the search word in them are shown."
+msgstr "Laat de bezoeker toe de tabel te filteren of te doorzoeken. Alleen rijen met het keyword erin worden getoond."
+
+#: views/view-edit.php:557
+msgid "Search/Filtering"
+msgstr "Zoeken/filteren"
+
+#: views/view-edit.php:554
+msgid "Enable sorting of the table by the visitor."
+msgstr "De sortering van de tabel door de bezoeker inschakelen."
+
+#: views/view-edit.php:553
+msgid "Sorting"
+msgstr "Sortering"
+
+#: views/view-edit.php:546
+msgid "These features and options are only available when the &#8220;%1$s&#8221; checkbox in the &#8220;%2$s&#8221; section is checked."
+msgstr "Deze functies en opties zijn alleen beschikbaar als de het selectievakje &#8220;%1$s&#8221; in de sectie &#8220;%2$s&#8221; aangevinkt is."
+
+#: views/view-edit.php:530
+msgid "This is NOT the place to enter <a href=\"%s\">Custom CSS</a> code!"
+msgstr "Dit is niet de plaats om <a href=\"%s\">aangepaste CSS</a> code in te voeren!"
+
+#: views/view-edit.php:530
+msgid "Additional CSS classes for styling purposes can be entered here."
+msgstr "Extra CSS klassen voor styling doeleinden kunnen hier worden ingevoerd."
+
+#: views/view-edit.php:529 admin/js/build/edit.js:1 admin/js/edit.js:196
+msgid "Extra CSS Classes"
+msgstr "Extra CSS klassen"
+
+#: views/view-edit.php:519
+msgid "Print Table Description"
+msgstr "Print tabelbeschrijving"
+
+#: views/view-edit.php:513 views/view-edit.php:523
+msgid "below"
+msgstr "eronder"
+
+#: views/view-edit.php:512 views/view-edit.php:522
+msgid "above"
+msgstr "erboven"
+
+#: views/view-edit.php:509
+msgid "Print Table Name"
+msgstr "Print tabelnaam"
+
+#: views/view-edit.php:506
+msgid "Highlight a row while the mouse cursor hovers above it by changing its background color."
+msgstr "Markeer een rij terwijl je erboven hovert door de achtergrondkleur te veranderen."
+
+#: views/view-edit.php:505
+msgid "Row Hover Highlighting"
+msgstr "Rij oplichten bij hoveren"
+
+#: views/view-edit.php:502
+msgid "The background colors of consecutive rows shall alternate."
+msgstr "De achtergrondkleuren van aaneensluitende rijen zullen alterneren."
+
+#: views/view-edit.php:501
+msgid "Alternating Row Colors"
+msgstr "Alternerende rijkleuren"
+
+#: views/view-edit.php:498
+msgid "The last row of the table is the table footer."
+msgstr "De laatste rij van de tabel is de tabel footer."
+
+#: views/view-edit.php:497 admin/js/build/edit.js:1 admin/js/edit.js:337
+msgid "Table Foot Row"
+msgstr "Tabel voet rij"
+
+#: views/view-edit.php:494
+msgid "The first row of the table is the table header."
+msgstr "De eerste rij van de tabel is de header van de tabel."
+
+#: views/view-edit.php:493 views/view-edit.php:546 admin/js/build/edit.js:1
+#: admin/js/edit.js:327
+msgid "Table Head Row"
+msgstr "Tabel head rij"
+
+#: views/view-edit.php:430
+msgid "Delete Table"
+msgstr "Tabel verwijderen"
+
+#: views/view-edit.php:427
+msgid "Export Table"
+msgstr "Tabel exporteren"
+
+#: views/view-edit.php:424
+msgid "Copy Table"
+msgstr "Tabel kopiëren"
+
+#: views/view-edit.php:422
+msgid "Other Actions"
+msgstr "Andere acties"
+
+#: views/view-edit.php:375
+msgid "Add %s column(s)"
+msgstr "%s kolom(men) toevoegen"
+
+#: views/view-edit.php:372 views/view-edit.php:376
+msgid "Add"
+msgstr "Toevoegen"
+
+#: views/view-edit.php:371
+msgid "Add %s row(s)"
+msgstr "%s rij(en) toevoegen"
+
+#: views/class-all-tables-list-table.php:240 views/view-edit.php:336
+#: views/view-edit.php:342
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: views/view-edit.php:335 views/view-edit.php:341
+msgid "Insert"
+msgstr "Invoegen"
+
+#: views/view-edit.php:334 views/view-edit.php:340
+msgid "Duplicate"
+msgstr "Dupliceren"
+
+#: views/view-edit.php:339 views/view-edit.php:352 views/view-edit.php:364
+msgid "Selected columns"
+msgstr "Geselecteerde kolommen"
+
+#: views/view-edit.php:361 views/view-edit.php:366
+msgid "Show"
+msgstr "Toon"
+
+#: views/view-edit.php:360 views/view-edit.php:365
+msgid "Hide"
+msgstr "Verbergen"
+
+#: views/view-edit.php:333 views/view-edit.php:347 views/view-edit.php:359
+msgid "Selected rows"
+msgstr "Geselecteerde rijen"
+
+#: views/view-edit.php:472
+msgid "Combining consecutive cells within the same column is called &#8220;rowspanning&#8221;."
+msgstr "Combineren van aaneensluitende cellen binnen dezelfde kolom wordt &#8220;rowspanning&#8221; genoemd."
+
+#: views/view-edit.php:471
+msgid "Combining consecutive cells within the same row is called &#8220;colspanning&#8221;."
+msgstr "Samenvoegen van aaneensluitende cellen binnen dezelfde rij wordt &#8220;colspanning&#8221; genoemd."
+
+#: views/view-edit.php:470
+msgid "Table cells can span across more than one column or row."
+msgstr "Tabelcellen kunnen zich over meer dan één kolom of rij uitstrekken."
+
+#: views/view-edit.php:328 views/view-edit.php:468
+msgid "Help on combining cells"
+msgstr "Hulp bij combineren van cellen"
+
+#: views/view-edit.php:328
+msgid "?"
+msgstr "?"
+
+#: views/view-edit.php:323 views/view-edit.php:447 admin/js/build/edit.js:1
+#: admin/js/edit/contextmenu.js:136
+msgid "Advanced Editor"
+msgstr "Geavanceerde editor"
+
+#: views/view-edit.php:322 admin/js/build/edit.js:1
+#: admin/js/edit/contextmenu.js:131
+msgid "Insert Image"
+msgstr "Afbeelding invoegen"
+
+#: views/view-edit.php:321 admin/js/build/edit.js:1
+#: admin/js/edit/contextmenu.js:126
+msgid "Insert Link"
+msgstr "Link invoegen"
+
+#: views/view-edit.php:232
+msgid "%1$s by %2$s"
+msgstr "%1$s door %2$s"
+
+#: views/class-all-tables-list-table.php:109 views/view-edit.php:231
+msgid "Last Modified"
+msgstr "Laatst gewijzigd"
+
+#: views/view-edit.php:218
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: views/view-edit.php:217
+msgid "The Table ID can only consist of letters, numbers, hyphens (-), and underscores (_)."
+msgstr "Het tabel ID mag alleen bestaan uit letters, cijfers, streepjes (-) en liggende streepjes (_)."
+
+#: views/view-edit.php:214
+msgid "Table ID"
+msgstr "Tabel ID"
+
+#: views/view-edit.php:81 views/view-edit.php:546 admin/js/build/edit.js:1
+#: admin/js/edit.js:327 admin/js/edit.js:337
+msgid "Table Options"
+msgstr "Tabelopties"
+
+#: views/view-edit.php:80
+msgid "Table Manipulation"
+msgstr "Tabel manipulatie"
+
+#: views/view-edit.php:79
+msgid "Table Content"
+msgstr "Tabelinhoud"
+
+#: views/view-edit.php:78
+msgid "Table Information"
+msgstr "Tabel informatie"
+
+#: views/view-edit.php:99
+msgid "Insert into Table"
+msgstr "Invoegen in de tabel"
+
+#: views/view-edit.php:57 views/view-list.php:101
+msgid "Error: The table could not be deleted."
+msgstr "Fout: de tabel kon niet verwijderd worden."
+
+#: views/view-edit.php:56
+msgid "The table was imported successfully."
+msgstr "De tabel is met succes geïmporteerd."
+
+#: views/view-edit.php:55
+msgid "You are now seeing the copied table, which has the table ID &#8220;%s&#8221;."
+msgstr "Je ziet nu de gekopieerde tabel die de tabel ID &#8220;%s&#8221; heeft."
+
+#: views/view-edit.php:55 views/view-list.php:102 views/view-list.php:103
+msgid "The table was copied successfully."
+msgid_plural "The tables were copied successfully."
+msgstr[0] "De tabel is met succes gekopieerd."
+msgstr[1] "De tabellen zijn met succes gekopieerd."
+
+#: views/view-edit.php:54
+msgid "The table was added successfully."
+msgstr "De tabel is met succes toegevoegd."
+
+#: views/view-add.php:96
+msgid "The number of columns in your table."
+msgstr "Het aantal kolommen in de tabel."
+
+#: views/view-add.php:94
+msgid "Number of Columns"
+msgstr "Aantal kolommen"
+
+#: views/view-add.php:91
+msgid "The number of rows in your table."
+msgstr "Het aantal rijen in de tabel."
+
+#: views/view-add.php:90 views/view-add.php:95 views/view-edit.php:371
+#: views/view-edit.php:375
+msgid "This field must contain a positive number."
+msgstr "Dit veld moet een positief getal bevatten."
+
+#: views/view-add.php:89
+msgid "Number of Rows"
+msgstr "Aantal rijen"
+
+#: views/view-add.php:86
+msgid "A description of the contents of your table."
+msgstr "Een beschrijving van de inhoud van de tabel."
+
+#: views/view-add.php:84
+msgid "(optional)"
+msgstr "(optioneel)"
+
+#: views/class-all-tables-list-table.php:106
+#: views/class-editor-button-thickbox-list-table.php:87 views/view-add.php:84
+#: views/view-edit.php:227
+msgid "Description"
+msgstr "Beschrijving"
+
+#: views/view-add.php:81
+msgid "The name or title of your table."
+msgstr "De naam of titel van de tabel."
+
+#: views/class-all-tables-list-table.php:105
+#: views/class-editor-button-thickbox-list-table.php:86 views/view-add.php:79
+#: views/view-edit.php:223
+msgid "Table Name"
+msgstr "Tabelnaam"
+
+#: views/view-add.php:62
+msgid "You can always change the name, description, and size of your table later."
+msgstr "Je kunt altijd later nog de naam, beschrijving en grootte van de tabel aanpassen."
+
+#: views/view-add.php:59
+msgid "To add a new table, enter its name, a description (optional), and the number of rows and columns into the form below."
+msgstr "Om een nieuwe tabel toe te voegen voer je de naam, een beschrijving (optioneel) en het aantal rijen en kolommen in in onderstaand formulier."
+
+#: views/view-add.php:44
+msgid "Add Table"
+msgstr "Tabel toevoegen"
+
+#: views/view-add.php:39
+msgid "Error: The table could not be added."
+msgstr "Fout: de tabel kon niet worden toegevoegd."
+
+#: views/view-about.php:252
+msgid "all customers, donors, contributors, supporters, reviewers, and users of the plugin!"
+msgstr "alle klanten, donateurs, bijdragers, ondersteuners, beoordelaars en gebruikers van de plugin!"
+
+#: views/view-about.php:249
+msgid "Special Thanks go to:"
+msgstr "Speciale dank aan:"
+
+#: views/view-about.php:210
+msgid "Please provide this information in bug reports and support requests."
+msgstr "Verschaf deze informatie in foutopsporing rapporten en ondersteuningsaanvragen."
+
+#: views/view-about.php:193
+msgid "If you do not find an answer there, please <a href=\"%s\">open a new thread</a> in the WordPress Support Forums."
+msgstr "Indien je daar geen antwoord kunt vinden, <a href=\"%s\">open dan een nieuw onderwerp</a> in de WordPress-supportfora."
+
+#: views/view-about.php:162
+msgid "Please rate and review the plugin in the <a href=\"%s\">WordPress Plugin Directory</a>."
+msgstr "Geef een waardering en een beoordeling in de <a href=\"%s\">WordPress-plugin-directory</a>."
+
+#: views/view-about.php:159
+msgid "It is licensed as Free Software under GNU General Public License 2 (GPL 2)."
+msgstr "Het is gelicentieerd als Vrije Software onder GNU General Public License 2 (GPL 2)."
+
+#: views/view-about.php:158
+msgid "This plugin was written and developed by <a href=\"%s\">Tobias Bäthge</a>."
+msgstr "Deze plugin is geschreven en ontwikkeld door <a href=\"%s\">Tobias Bäthge</a>."
+
+#: views/view-about.php:124
+msgid "Please see the <a href=\"%s\">Documentation</a> for a list of these selectors and for styling examples."
+msgstr "Raadpleeg de <a href=\"%s\">documentatie</a> voor een lijst met deze selectors en styling voorbeelden."
+
+#: views/view-about.php:123
+msgid "For this, each table is given certain CSS classes that can be used as CSS selectors."
+msgstr "Hiervoor krijgt elke tabel bepaalde CSS klassen die gebruikt kunnen worden als CSS selectors."
+
+#: views/view-about.php:122
+msgid "The plugin ships with default CSS stylesheets, which can be customized with own code or replaced with other stylesheets."
+msgstr "De plugin wordt geleverd met standaard CSS stylesheets, die door eigen code of andere stylesheets aangepast of vervangen kunnen worden."
+
+#: views/view-about.php:121
+msgid "Tables can be styled by changing and adding CSS commands."
+msgstr "Tabellen kunnen worden vormgegeven door het veranderen en het toevoegen van CSS opdrachten."
+
+#: views/view-about.php:106
+msgid "Those will ask you for the necessary information and corresponding HTML code will be added to the cell automatically."
+msgstr "Die zullen je om de nodige informatie vragen en de bijbehorende HTML-code zal automatisch aan de cel worden toegevoegd."
+
+#: views/view-about.php:105
+msgid "To easily add a link or an image to a cell, use the provided buttons."
+msgstr "Om gemakkelijk een link of een afbeelding toe te voegen aan een cel, gebruik je de aanwezige knoppen."
+
+#: views/view-about.php:104
+msgid "Then, you can edit your data or change the structure of your table (e.g. by inserting, deleting, moving, or swapping rows or columns or sorting them) and select specific table features like alternating row colors or whether to print the name or description, if you want."
+msgstr "Vervolgens kan je je gegevens bewerken of de structuur van je tabel wijzigen (bijvoorbeeld door rijen of kolommen in te voegen, te verwijderen, te verplaatsen of te verwisselen of te sorteren) en specifieke tabel functies selecteren, zoals afwisselende rij kleuren of de naam of beschrijving afdrukken, als je dat wilt."
+
+#: views/view-about.php:101
+msgid "This means that you either let the plugin create an empty table for you or that you load an existing table from either a CSV, HTML, JSON, XLS, or XLSX file."
+msgstr "Dit betekent dat je ofwel de plugin een lege tabel voor je laat maken, ofwel dat je een bestaande tabel inlaadt vanuit een CSV , HTML , JSON , XLS , of XLSX bestand."
+
+#: views/view-about.php:100
+msgid "At first, you should add or import a table."
+msgstr "Als eerste dien je een tabel toe te voegen of te importeren."
+
+#: views/view-about.php:83
+msgid "Tables may contain text, numbers, formulas, and even HTML code (e.g. to include images or links)."
+msgstr "Tabellen kunnen tekst, getallen, formules en zelfs HTML code (bijv. met afbeeldingen of links) bevatten."
+
+#: views/view-about.php:82
+msgid "TablePress allows you to create and manage tables in the admin area of WordPress."
+msgstr "TablePress geeft je de mogelijkheid tabellen te maken en beheren in de beheerder sectie van WordPress."
+
+#: views/view-about.php:54
+msgid "Debug and Version Information"
+msgstr "Foutopsporing en versie-informatie"
+
+#: views/view-about.php:53
+msgid "Credits and Thanks"
+msgstr "Credits en dank"
+
+#: views/view-about.php:52
+msgid "Author and License"
+msgstr "Auteur en licentie"
+
+#: views/view-about.php:51
+msgid "Help and Support"
+msgstr "Hulp en ondersteuning"
+
+#: views/view-about.php:50
+msgid "More Information and Documentation"
+msgstr "Meer informatie en documentatie"
+
+#: views/view-about.php:49
+msgid "Usage"
+msgstr "Gebruik"
+
+#: views/view-about.php:48
+msgid "Plugin Purpose"
+msgstr "Doel van plugin"
+
+#: models/model-table.php:450
+msgid "Copy of %s"
+msgstr "Kopie van %s"
+
+#: controllers/controller-admin.php:225 models/model-table.php:448
+#: views/class-all-tables-list-table.php:174
+#: views/class-all-tables-list-table.php:219
+#: views/class-editor-button-thickbox-list-table.php:151
+#: admin/js/build/edit.js:1 admin/js/build/export.js:1
+#: admin/js/build/import.js:1 admin/js/edit.js:711 admin/js/export/screen.js:30
+#: admin/js/import/screen.js:47
+msgid "(no name)"
+msgstr "(geen naam)"
+
+#: controllers/controller-frontend.php:828
+#: views/class-all-tables-list-table.php:303
+msgid "%s ago"
+msgstr "%s geleden"
+
+#: controllers/controller-admin_ajax.php:283 views/view-preview_table.php:64
+msgid "Because of CSS styling in your theme, the table might look different on your page!"
+msgstr "Door CSS opmaak in het thema kan de tabel er toch anders uitzien op je pagina!"
+
+#: controllers/controller-admin_ajax.php:282 views/view-preview_table.php:64
+msgid "This is a preview of your table."
+msgstr "Dit is een voorvertoning van de tabel."
+
+#: controllers/controller-admin.php:1390 views/view-options.php:224
+#: views/view-options.php:233
+msgid "Uninstall TablePress"
+msgstr "Deïnstalleer TablePress"
+
+#: controllers/controller-admin.php:1388
+msgid "Go to Dashboard"
+msgstr "Ga naar het dashboard"
+
+#: controllers/controller-admin.php:1386
+msgid "Go to &#8220;Plugins&#8221; page"
+msgstr "Ga naar de &#8220;Plugins&#8221; pagina"
+
+#: controllers/controller-admin.php:1381
+msgid "You may now also delete your TablePress &#8220;Custom CSS&#8221; files in the <code>wp-content</code> folder."
+msgstr "Je kunt nu ook de &#8220;Aangepaste CSS&#8221; bestanden van TablePress in de map <code>wp-content</code> verwijderen."
+
+#: controllers/controller-admin.php:1379
+msgid "Please also ask him to delete your TablePress &#8220;Custom CSS&#8221; files from the server."
+msgstr "Vraag hem ook je &#8220;aangepaste CSS&#8221; bestanden van TablePress van de server te verwijderen."
+
+#: controllers/controller-admin.php:1376
+msgid "Your TablePress &#8220;Custom CSS&#8221; files have been deleted automatically."
+msgstr "Je tablePress &#8220;Aangepaste CSS&#8221; bestanden zijn automatisch verwijderd."
+
+#: controllers/controller-admin.php:1373
+msgid "You may now manually delete the plugin&#8217;s folder <code>tablepress</code> from the <code>plugins</code> directory on your server or use the &#8220;Delete&#8221; link for TablePress on the WordPress &#8220;Plugins&#8221; page."
+msgstr "Je kunt nu handmatig de plugin map <code>tablepress</code> verwijderen uit de folder <code>plugins</code> op de server, of gebruik de link voor het &#8220;Verwijderen&#8221; van TablePress op de WordPress pagina &#8220;Plugins&#8221;."
+
+#: controllers/controller-admin.php:1371
+msgid "You may now ask the network admin to delete the plugin&#8217;s folder <code>tablepress</code> from the server, if no other site in the network uses it."
+msgstr "Je kunt nu de netwerkbeheerder vragen om de plugin map <code>tablepress</code> van de server te verwijderen als geen andere site in het netwerk ervan gebruik maakt."
+
+#: controllers/controller-admin.php:1369
+msgid "All tables, data, and options were deleted."
+msgstr "Alle tabellen, gegevens en opties zijn verwijderd."
+
+#: controllers/controller-admin.php:1368
+msgid "TablePress was uninstalled successfully."
+msgstr "TablePress is met succes verwijderd."
+
+#: controllers/controller-admin.php:1280
+msgid "The table could not be loaded."
+msgstr "De tabel kon niet worden geladen."
+
+#: controllers/controller-admin.php:1270 controllers/controller-admin.php:1280
+#: views/class-all-tables-list-table.php:243 views/view-edit.php:396
+#: views/view-preview_table.php:58
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: controllers/controller-admin.php:1270
+#: controllers/controller-admin_ajax.php:295
+msgid "The preview could not be loaded."
+msgstr "Het voorbeeld kon niet worden geladen."
+
+#: classes/class-import.php:185
+msgid "Imported from Manual Input"
+msgstr "Geïmporteerd uit handmatige invoer"
+
+#: controllers/controller-admin.php:670
+msgid "About TablePress"
+msgstr "Over TablePress"
+
+#: controllers/controller-admin.php:669 controllers/controller-admin.php:671
+msgid "About"
+msgstr "Over"
+
+#: controllers/controller-admin.php:662 controllers/controller-admin.php:663
+#: controllers/controller-admin.php:664
+msgid "Plugin Options"
+msgstr "Plugin opties"
+
+#: controllers/controller-admin.php:657
+msgctxt "navigation bar"
+msgid "Export"
+msgstr "Export"
+
+#: controllers/controller-admin.php:655 controllers/controller-admin.php:656
+msgid "Export a Table"
+msgstr "Een tabel exporteren"
+
+#: controllers/controller-admin.php:650
+msgctxt "navigation bar"
+msgid "Import"
+msgstr "Import"
+
+#: controllers/controller-admin.php:648 controllers/controller-admin.php:649
+msgid "Import a Table"
+msgstr "Importeer een tabel"
+
+#: controllers/controller-admin.php:641
+msgid "Edit Table"
+msgstr "Tabel bewerken"
+
+#: controllers/controller-admin.php:636
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: controllers/controller-admin.php:634 controllers/controller-admin.php:635
+#: views/view-add.php:43
+msgid "Add New Table"
+msgstr "Voeg een nieuwe tabel toe"
+
+#: controllers/controller-admin.php:627 controllers/controller-admin.php:628
+#: controllers/controller-admin.php:629
+msgid "All Tables"
+msgstr "Alle tabellen"
+
+#: controllers/controller-admin.php:545
+msgctxt "Default CSV delimiter in the translated language (\";\", \",\", or \"tab\")"
+msgid ","
+msgstr ","
+
+#: controllers/controller-admin.php:412
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: controllers/controller-admin.php:411
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: controllers/controller-admin.php:410
+msgid "FAQ"
+msgstr "FAQ"
+
+#: controllers/controller-admin.php:410
+msgid "Frequently Asked Questions"
+msgstr "Veelgestelde vragen"
+
+#: controllers/controller-admin.php:394
+msgid "Plugin page"
+msgstr "Plugin pagina"
+
+#: controllers/controller-admin.php:368
+msgid "TablePress Table"
+msgstr "TablePress tabel"
+
+#: classes/class-view.php:479 views/view-edit.php:399
+#: views/view-options.php:209
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#. Plugin Name of the plugin
+#: classes/class-view.php:413
+msgid "TablePress"
+msgstr "TablePress"
+
+#: classes/class-view.php:163 controllers/controller-admin.php:125
+#: views/view-editor_button_thickbox.php:74
+#: views/view-editor_button_thickbox.php:119
+#: views/view-options_custom_css.php:41 views/view-preview_table.php:58
+msgid "%1$s &lsaquo; %2$s"
+msgstr "%1$s &lsaquo; %2$s"
+
+#: classes/class-view.php:121
+msgid "For more information:"
+msgstr "Voor meer informatie:"
+
+#: classes/class-view.php:109 views/view-about.php:192
+msgid "Before asking for support, please carefully read the <a href=\"%s\">Frequently Asked Questions</a>, where you will find answers to the most common questions, and search through the forums."
+msgstr "Lees eerst zorgvuldig de <a href=\"%s\">Veelgestelde vragen</a>, voordat je om ondersteuning vraagt; hier vind je antwoord op de meest voorkomende vragen en kun je de fora doorzoeken."
+
+#: classes/class-view.php:107 views/view-about.php:191
+msgid "<a href=\"%1$s\">Support</a> is provided through the <a href=\"%2$s\">WordPress Support Forums</a>."
+msgstr "<a href=\"%1$s\">Ondersteuning</a> wordt geleverd door de <a href=\"%2$s\">WordPress-supportfora</a>."
+
+#: classes/class-view.php:103 views/view-about.php:141
+msgid "For technical information, please see the <a href=\"%s\">Documentation</a>."
+msgstr "Voor technische informatie, zie de <a href=\"%s\">documentatie</a>."
+
+#: classes/class-view.php:102 views/view-about.php:140
+msgid "More information about TablePress can be found on the <a href=\"%1$s\">plugin website</a> or on its page in the <a href=\"%2$s\">WordPress Plugin Directory</a>."
+msgstr "Meer informatie over TablePress kan gevonden worden op de <a href=\"%1$s\">plugin site</a> of op de <a href=\"%2$s\">WordPress Plugin Directory</a> pagina."
+
+#: classes/class-view.php:116
+msgid "TablePress Help"
+msgstr "TablePress hulp"
+
+#: classes/class-render.php:519 views/class-all-tables-list-table.php:230
+msgid "Edit"
+msgstr "Bewerken"
+
+#: classes/class-render.php:354
+msgid "<!-- The table with the ID %s is empty! -->"
+msgstr "<!-- De tabel met het ID %s is leeg! -->"
+
+#: classes/class-import-legacy.php:185 classes/class-import-legacy.php:282
+#: libraries/html-parser.class.php:68
+msgid "The imported file contains errors:"
+msgstr "Het geïmporteerde bestand bevat fouten:"
+
+#: classes/class-import-legacy.php:74
+msgid "XLSX - Microsoft Excel 2007-2019 (experimental)"
+msgstr "XLSX - Microsoft Excel 2007-2019 (experimenteell)"
+
+#: classes/class-import-legacy.php:73
+msgid "XLS - Microsoft Excel 97-2003 (experimental)"
+msgstr "XLS - Microsoft Excel 97-2003 (experimenteel)"
+
+#: classes/class-export.php:63
+msgid "\\t (tabulator)"
+msgstr "\\t (tab)"
+
+#: classes/class-export.php:62
+msgid ", (comma)"
+msgstr ", (komma)"
+
+#: classes/class-export.php:61
+msgid "; (semicolon)"
+msgstr "; (puntkomma)"
+
+#: classes/class-export.php:58 classes/class-import-legacy.php:72
+msgid "JSON - JavaScript Object Notation"
+msgstr "JSON - JavaScript Object Notation"
+
+#: classes/class-export.php:57 classes/class-import-legacy.php:70
+msgid "HTML - Hypertext Markup Language"
+msgstr "HTML - Hypertext Markup Language"
+
+#: classes/class-export.php:56 classes/class-import-legacy.php:68
+msgid "CSV - Character-Separated Values"
+msgstr "CSV - Character-Separated Values"

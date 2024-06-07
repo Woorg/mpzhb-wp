@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 10">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #141414;
+      }
+    </style>
+  </defs>
+  <title>list</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Canvas">
+        <g id="On_Icon" data-name="On Icon">
+          <path id="path0_fill" data-name="path0 fill" class="cls-1" d="M13.61,2.19,6,9.62a1.35,1.35,0,0,1-1.87,0L.39,6a1.25,1.25,0,0,1,0-1.81,1.35,1.35,0,0,1,1.87,0L5.06,6.9,11.74.37a1.36,1.36,0,0,1,1.87,0A1.25,1.25,0,0,1,13.61,2.19Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
